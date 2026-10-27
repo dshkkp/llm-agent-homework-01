@@ -1,0 +1,7 @@
+requests
+pydantic>=2
+python-dotenv
+pandas
+matplotlib
+jupyter
+pytest
