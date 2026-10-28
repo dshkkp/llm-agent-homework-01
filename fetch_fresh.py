@@ -29,22 +29,10 @@ HEADERS = {"Authorization": f"Bearer {os.environ['OPENROUTER_API_KEY']}", "X-Tit
 CHEAP, STRONG = "openai/gpt-4o-mini", "anthropic/claude-sonnet-4.6"
 WIKI = "https://en.wikipedia.org/w/api.php"
 WIKI_HEADERS = {"User-Agent": "agents-course-seminar01/1.0 (https://postypashki.ru; educational project)"}
-PAGES = ["2026", "2026 in science", "2026 in sports", "2026 in film", "2026 in spaceflight", "2026 in video games",
-         "2026 in music", "2026 in television", "2026 in literature", "2026 Winter Olympics", "2026 FIFA World Cup",
-         "2026 in aviation", "2026 in politics", "2026 in the United States", "2026 in the United Kingdom",
-         "2026 in Russia", "2026 in Germany", "2026 in Japan", "2026 in India", "2026 in association football",
-         "2026 in basketball", "2026 in tennis", "2026 in Formula One", "2026 in art", "2026 in architecture",
-         "2026 in Canada", "2026 in Australia", "2026 in France", "2026 in Italy", "2026 in Spain", "2026 in Brazil",
-         "2026 in China", "2026 in South Korea", "2026 in Mexico", "2026 in Ukraine", "2026 in Turkey",
-         "2026 in American television", "2026 in British television", "2026 in chess", "2026 in cycling",
-         "2026 in golf", "2026 in ice hockey", "2026 in athletics", "2026 in boxing", "2026 in mixed martial arts",
-         "2026 in esports", "2026 in comics", "2026 in animation", "2026 in classical music", "2026 in paleontology",
-         "2026 in archaeology", "2026 in rail transport", "2026 in American football", "2026 in baseball",
-         "2026 in motorsport", "2026 in rugby union", "2026 in swimming", "2026 in figure skating", "2026 in cricket",
-         "Portal:Current events/January 2026", "Portal:Current events/February 2026", "Portal:Current events/March 2026",
-         "Portal:Current events/April 2026", "Portal:Current events/May 2026", "Portal:Current events/June 2026",
-         "Portal:Current events/July 2026", "Portal:Current events/August 2026"]
-MONTHS = "January|February|March|April|May|June|July|August"
+PAGES = [
+    "2026 in artificial intelligence",
+    "2026 in technology and computing"]
+MONTHS = ("January|February|March|April|May|June|July|August|September|October")
 COST = 0.0
 
 
@@ -124,20 +112,36 @@ def json_from(text):
     return json.loads(cleaned, strict=False)
 
 
-GEN_PROMPT = """Each fact below comes from a Wikipedia page about 2026 (the page title is given in parentheses). For each fact write one quiz question with a short unambiguous answer.
-Rules: the answer is a single entity, at most five words: a person's name, a number, a title, a place or a date, nothing else;
-the answer must appear verbatim in the fact; the question asks for a specific detail of a specific described event, never
-"what happened" or "who is mentioned"; the question is self-contained: it names the country or field from the page title,
-the month and year 2026 and enough of the event to identify it without seeing the fact; never put the answer into the question;
-skip facts about future or scheduled events and facts without a clear short checkable detail.
-Return only a JSON array of objects {"i": <fact index>, "question": "...", "answer": "..."}."""
+GEN_PROMPT = """
+You generate factual questions about AI and technology events in 2026.
+For each provided fact, create one question with a short, unambiguous answer.
+
+Rules:
+1. The event must have already happened in 2026.
+2. The question must mention the month and year 2026.
+3. The question must be understandable without reading the source.
+4. The answer must be a specific entity:
+   a person's name, company, country, product, event title,
+   number, or date.
+5. The answer must appear verbatim in the provided fact.
+6. The answer must contain no more than four words.
+7. Never include the answer in the question.
+8. Never ask vague questions like "What happened?"
+9. Do not use actions or explanations as answers.
+10. Skip facts that are ambiguous, planned, or expected.
+
+Return ONLY a JSON array in this format:
+[{"i": 0, "question": "...", "answer": "..."}]
+"""
 
 
 def good_pair(question, answer, fact):
-    a, q = normalize(answer), normalize(question)
-    return (bool(a) and a in normalize(fact) and len(answer) <= 40 and len(answer.split()) <= 4
-            and question.rstrip().endswith("?") and 30 <= len(question) <= 240 and a not in q)
+    a = normalize(answer)
+    q = normalize(question)
 
+    return ( bool(a) and a in normalize(fact) and len(answer) <= 40
+        and len(answer.split()) <= 4 and question.endswith("?") and 30 <= len(question) <= 240
+        and "2026" in question and re.search(rf"\b({MONTHS})\b", question, re.I) is not None and a not in q)
 
 def generate(facts):
     items = []
@@ -147,7 +151,7 @@ def generate(facts):
         try:
             for obj in json_from(chat([{"role": "system", "content": GEN_PROMPT}, {"role": "user", "content": listing}], CHEAP)):
                 i, q, a = int(obj["i"]), str(obj["question"]).strip(), str(obj["answer"]).strip()
-                if 0 <= i < len(facts) and good_pair(q, a, facts[i]["text"]):
+                if start <= i < start + len(batch) and good_pair(q, a, facts[i]["text"]):
                     items.append({**facts[i], "question": q, "answer": a})
         except (ValueError, KeyError, TypeError, RuntimeError) as e:
             print("  батч пропущен:", e, flush=True)

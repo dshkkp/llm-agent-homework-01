@@ -1,0 +1,7 @@
+записей: 150, проблем: 0
+
+Sonnet без инструментов: 3 из 150 верно, 2%. Потрачено $0.249
+критерий свежести пройден
+  fresh-20: In the 2026 FIFA World Cup, what format was used for the knockout stage starting June 28? -> The 2026 FIFA World Cup uses a Round of 
+  fresh-43: Who was sworn in as the Mayor of New York City on January 1, 2026? -> Zohran Mamdani was sworn in as the Mayor
+  fresh-136: Which xAI feature was restricted to paid users on January 9, 2026, following concerns abou -> Grok's AI image generation feature (Auro
