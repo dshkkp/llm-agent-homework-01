@@ -1,0 +1,25 @@
+{
+  "config": "cheap_no_tools",
+  "task_id": "fresh-25",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "I do not have information about events or declarations that occurred after my last training cut-off in October 2023. Therefore, I cannot provide details about the government of Pakistan's declaration on February 26, 2026. \n\nFINAL: Information not available.",
+  "steps": 1,
+  "cost": 5.3250000000115705e-05,
+  "seconds": 2.54980420001084,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I do not have information about events or declarations that occurred after my last training cut-off in October 2023. Therefore, I cannot provide details about the government of Pakistan's declaration on February 26, 2026. \n\nFINAL: Information not available.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

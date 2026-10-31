@@ -1,0 +1,69 @@
+{
+  "config": "cheap_web_page",
+  "task_id": "fresh-123",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "В июне 2026 года Буркина-Фасо разорвала дипломатические отношения с Францией, обвинив бывшую колониальную державу в неоколониализме и поддержке субверсивных действий и террористов в Сахеле. \n\nFINAL: Burkina Faso",
+  "steps": 3,
+  "cost": 0.0003338999999999981,
+  "seconds": 9.710871700022835,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "What country broke off diplomatic relations with France in June 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Tu3AbedO2yZxqVqZjuhClBsy",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"country broke off diplomatic relations with France in June 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Tu3AbedO2yZxqVqZjuhClBsy",
+      "content": "[Foreign relations of Israel] Foreign relations of Israel refers to diplomatic and trade relations between Israel and other countries around the world. Israel has diplomatic ties with 165 of the other 192 UN member states as of 12 December 2020. Israel is a member of the United Nations (UN) and a number of other international organisations. Israel maintains full diplomatic relations with two of its Arab neighbours, Egypt and Jordan, after signing peace treaties in 1979 and 1994 respectively. In 2020, Israel signed agreements establishing diplomatic relations with three Arab League countries, Bahrain, the United Arab Emirates, and Morocco. As of 2021, Israel had formal diplomatic relations with 168 countries, while 28 UN member states have either never established, or have broken off diplomatic relations with Israel. Israel's foreign relations are influenced primarily by Israel's strategic situation in the Middle East, the broader Arab–Israeli conflict and the conflict with Iran particularly over Iran's nuclear program, along with the rejection by regional states. Israel's foreign policy goals have therefore been to overcome diplomatic isolation and to achieve recognition and friendly relations with as many nations as possible, both in the Middle East region and further afield. Israel practices both open and secret diplomacy to further national goals, for example, commercial trade and science and technology cooperation, importing raw materials, engaging in military procurement as well as exporting arms and military assistance, intelligence cooperation with its allies, and prisoner-of-war exchanges and other arrangements for hostage releases. It has also sought to foster increased Jewish immigration to Israel and to protect vulnerable Jewish communities in the Diaspora, to offer aid to developing countries and humanitarian assistance to countries facing large-scale disasters. Israel's close friendship with the United States has been a linchpin of its foreign policy si"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Vw719Nd4rt5OIwM0zDM0Cr86",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"June 2026 diplomatic relations France\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Vw719Nd4rt5OIwM0zDM0Cr86",
+      "content": "[Burkina Faso–France relations] Burkina Faso–France relations refers to the diplomatic relations between Burkina Faso and France. Diplomatic relations were established on 4 August 1960. Burkina Faso was formerly part of a French colony called French Upper Volta. France has special forces stationed in Burkina Faso. Burkina Faso has an embassy in Paris, and France has an embassy in Ouagadougou. In January 2023, Burkina Faso's military junta asked France to recall its ambassador amid a surge of anti-French sentiment as the country moved to develop closer ties to Russia. In June 2026, Burkina Faso formally severed diplomatic relations with France, accusing the former colonial ruler of neo-colonialism and allegedly supporting subversive activities and terrorists in the Sahel."
+    },
+    {
+      "role": "assistant",
+      "content": "В июне 2026 года Буркина-Фасо разорвала дипломатические отношения с Францией, обвинив бывшую колониальную державу в неоколониализме и поддержке субверсивных действий и террористов в Сахеле. \n\nFINAL: Burkina Faso",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

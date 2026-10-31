@@ -1,0 +1,982 @@
+﻿config,id,answer,correct,cost,seconds,steps
+strong_no_tools,fresh-0,I don't have reliable information about this event.,False,0.0037170000000001924,6.446662399976049,1
+strong_no_tools,fresh-1,"April 30, 2025",False,0.0011219999999998453,2.1044038999825716,1
+strong_no_tools,fresh-2,"I don't have information about events on March 13, 2026, as this date is beyond my knowledge cutoff.",False,0.0025079999999999547,3.593756999995094,1
+strong_no_tools,fresh-3,"I don't have information about events in March 2026, as it is beyond my knowledge cutoff.",False,0.001599000000000128,2.5681639999966137,1
+strong_no_tools,fresh-4,"A ban on new gas connections in homes (new residential buildings) came into force in Victoria, Australia in January 2026.",False,0.005190000000000028,9.380059799994342,1
+strong_no_tools,fresh-5,I don't have information about this event,False,0.0014520000000000088,2.434699699981138,1
+strong_no_tools,fresh-6,I don't have data on events from August 2026.,False,0.0014459999999998363,2.756114499992691,1
+strong_no_tools,fresh-7,I don't have information about events in July 2026,False,0.0014400000000001079,2.345542800030671,1
+strong_no_tools,fresh-8,I don't have information about events from July 2026.,False,0.0013440000000000119,2.3916831000242382,1
+strong_no_tools,fresh-9,Jakarta,False,0.0011010000000000186,1.9647992000100203,1
+strong_no_tools,fresh-10,13,False,0.005279999999999951,7.462641499994788,1
+strong_no_tools,fresh-11,I don't have this information,False,0.0019679999999999698,3.3856290000258014,1
+strong_no_tools,fresh-12,"I don't have access to January 2026 data, as it is beyond my knowledge cutoff.",False,0.0027719999999999967,4.691439200018067,1
+strong_no_tools,fresh-13,No data available — this event is beyond my knowledge cutoff date.,False,0.001514999999999933,2.611211800016463,1
+strong_no_tools,fresh-14,I don't have information about this event.,False,0.0026700000000001722,4.381307600007858,1
+strong_no_tools,fresh-15,I don't have information about events in July 2026.,False,0.0013319999999998888,2.3798983999877237,1
+strong_no_tools,fresh-16,"I don't have information about events in May 2026, as it is beyond my knowledge cutoff.",False,0.002415000000000056,3.9036453999578953,1
+strong_no_tools,fresh-17,"I don't have information about events on September 3, 2026, as it is beyond my knowledge cutoff.",False,0.0015479999999998828,2.854764999996405,1
+strong_no_tools,fresh-18,"October 28, 2021",False,0.004398000000000124,7.055029200040735,1
+strong_no_tools,fresh-19,I don't have information about this future event.,False,0.00143099999999996,2.3304180999984965,1
+strong_no_tools,fresh-20,Single-elimination (Round of 32),True,0.0031890000000001084,4.779573300038464,1
+strong_no_tools,fresh-21,"I don't have information about events in June 2026, as my knowledge cutoff is before that date.",False,0.0019080000000000208,2.8724346000235528,1
+strong_no_tools,fresh-22,"I don't have information about this event, as it occurred after my knowledge cutoff.",False,0.0023729999999999585,4.040879299980588,1
+strong_no_tools,fresh-23,"I don't have information about events from February 15, 2026, as this date is beyond my knowledge cutoff.",False,0.0026610000000000245,3.9134992999606766,1
+strong_no_tools,fresh-24,National Forest (Coedwig Genedlaethol Cymru),False,0.0037769999999999193,6.685233200027142,1
+strong_no_tools,fresh-25,"I don't have information about events from February 26, 2026, as this is beyond my knowledge cutoff.",False,0.00243900000000008,3.8668763999594375,1
+strong_no_tools,fresh-26,"I don't have information about this event, as it falls beyond my knowledge cutoff date.",False,0.001610999999999807,2.955540099996142,1
+strong_no_tools,fresh-27,Markus Hinterhäuser,True,0.0025590000000002,3.258247699995991,1
+strong_no_tools,fresh-28,No verified information exists about such an event in my knowledge base.,False,0.0023699999999999832,4.177067200012971,1
+strong_no_tools,fresh-29,I don't have information about this event,False,0.0018419999999998993,2.7754973000264727,1
+strong_no_tools,fresh-30,"I don't have information about this event, as it falls outside my knowledge cutoff date.",False,0.002043000000000017,3.0371307999594137,1
+strong_no_tools,fresh-31,I don't have information about this future event,False,0.0016199999999999548,2.969902800046839,1
+strong_no_tools,fresh-32,Unknown — this date is beyond my knowledge cutoff,False,0.0015810000000000546,2.7804196000215597,1
+strong_no_tools,fresh-33,I don't have information about events in April 2026 beyond my knowledge cutoff date.,False,0.0020039999999998948,3.5226050000055693,1
+strong_no_tools,fresh-34,I don't have information about this event,False,0.0017700000000000493,3.7649413000326604,1
+strong_no_tools,fresh-35,I don't have information about events from February 2026.,False,0.0022140000000001603,3.347260299953632,1
+strong_no_tools,fresh-36,"I don't have information about this event, as it is beyond my knowledge cutoff date.",False,0.0015959999999999308,2.8801209999946877,1
+strong_no_tools,fresh-37,"I don't have information about this event, as it falls after my knowledge cutoff date.",False,0.0023100000000000342,4.708234900026582,1
+strong_no_tools,fresh-38,"I don't have information about events in May 2026, as it is beyond my knowledge cutoff date.",False,0.0019409999999999705,2.8473541000275873,1
+strong_no_tools,fresh-39,"I don't have information about this event, as it is beyond my knowledge cutoff date.",False,0.002367000000000008,5.399892499961425,1
+strong_no_tools,fresh-40,"I don't have information about events on February 6, 2026",False,0.001670999999999978,2.792313399957493,1
+strong_no_tools,fresh-41,I don't have information about this event,False,0.0014250000000000096,3.8728909000055864,1
+strong_no_tools,fresh-42,I don't have verified information about the inauguration of Noida International Airport in March 2026.,False,0.0027360000000000717,4.372616000007838,1
+strong_no_tools,fresh-43,"I don't have confirmed information about who was sworn in as Mayor of New York City on January 1, 2026.",False,0.0035999999999998256,5.670037199975923,1
+strong_no_tools,fresh-44,55 Cancri e,False,0.0027840000000001197,4.629628999973647,1
+strong_no_tools,fresh-45,"I don't have information about this event, as it is beyond my knowledge cutoff date.",False,0.0017009999999999525,2.9125729999504983,1
+strong_no_tools,fresh-46,I don't have information about this event,False,0.0014760000000000328,2.3255014999886043,1
+strong_no_tools,fresh-47,I don't have information about events in July 2026.,False,0.0014849999999999586,2.218266600044444,1
+strong_no_tools,fresh-48,I don't have information about this event,False,0.0012360000000000149,2.0469935000292026,1
+strong_no_tools,fresh-49,"I don't have information about events from March 24, 2026, as it is beyond my knowledge cutoff.",False,0.001538999999999957,2.56958059995668,1
+strong_no_tools,fresh-50,"I don't have information about this event from January 29, 2026.",False,0.0018540000000000223,2.6964374000090174,1
+strong_no_tools,fresh-51,I don't have information about this future event,False,0.0013320000000001109,2.3867351999506354,1
+strong_no_tools,fresh-52,I don't have data on this event,False,0.0014279999999999848,2.7338849999941885,1
+strong_no_tools,fresh-53,I don't have enough information to answer this question accurately.,False,0.002585999999999977,4.252040899998974,1
+strong_no_tools,fresh-54,I don't have verified information about this event.,False,0.0025049999999999795,4.334892799961381,1
+strong_no_tools,fresh-55,I don't have information about this event,False,0.0015000000000000568,2.449150899949018,1
+strong_no_tools,fresh-56,I don't have data for January 2026,False,0.0018209999999998505,2.9039575000060722,1
+strong_no_tools,fresh-57,I don't have verified information about this event in July 2026.,False,0.002426999999999957,3.7786059999489225,1
+strong_no_tools,fresh-58,BYD,False,0.0026370000000000005,4.030916999967303,1
+strong_no_tools,fresh-59,"I don't have information about this event, as it occurred after my knowledge cutoff date.",False,0.0020370000000000665,3.6611515000113286,1
+strong_no_tools,fresh-60,I don't have data on events in June 2026,False,0.0014279999999999848,2.4572794000268914,1
+strong_no_tools,fresh-61,I don't have verified information about this event.,False,0.0017370000000000996,3.7926901999744587,1
+strong_no_tools,fresh-62,"I don't have information about events in March 2026, as my knowledge cutoff is July 2025.",False,0.0022679999999999367,3.837979100004304,1
+strong_no_tools,fresh-63,2,False,0.004590000000000094,6.3665102000231855,1
+strong_no_tools,fresh-64,I don't have information about this event,False,0.0013019999999999143,2.332756799994968,1
+strong_no_tools,fresh-65,I don't have verified information about this specific accident.,False,0.002679000000000098,3.6854403999750502,1
+strong_no_tools,fresh-66,"I cannot determine this answer as the event reportedly occurred in April 2026, beyond my knowledge cutoff.",False,0.0029129999999999434,4.35030370001914,1
+strong_no_tools,fresh-67,"I don't have information about this award announcement from January 2026, as it falls outside my knowledge cutoff.",False,0.0020849999999998925,2.83818489999976,1
+strong_no_tools,fresh-68,I don't have information about this event,False,0.0012030000000000651,2.1115029999637045,1
+strong_no_tools,fresh-69,Łódź,False,0.0012779999999998903,2.1745569000486284,1
+strong_no_tools,fresh-70,"A new night train service (European night train expansion, notably Paris–Berlin) begins on March 26, 2026, with the new European rail timetable period.",True,0.006042000000000103,10.37855889997445,1
+strong_no_tools,fresh-71,I don't have information about this event,False,0.0015780000000000793,2.476149099995382,1
+strong_no_tools,fresh-72,I cannot determine this answer as it falls outside my knowledge or pertains to unverified/fictional information.,False,0.0029730000000001144,4.357716500002425,1
+strong_no_tools,fresh-73,"I don't have information about events occurring on August 31, 2026, as this date is beyond my knowledge cutoff.",False,0.0017220000000000013,2.925954999984242,1
+strong_no_tools,fresh-74,I don't have information about this event,False,0.0014099999999999113,2.4369909000233747,1
+strong_no_tools,fresh-75,"I don't have information about events from January 14, 2026, as this is beyond my knowledge cutoff date.",False,0.002513999999999683,3.773290499986615,1
+strong_no_tools,fresh-76,"I don't have information about events from February 2026, as my knowledge cutoff is before that date.",False,0.001803000000000221,2.5416609999956563,1
+strong_no_tools,fresh-77,I don't have information about the 2026 São Toméan presidential election as it is beyond my knowledge cutoff date.,False,0.0015299999999998093,2.4015667000203393,1
+strong_no_tools,fresh-78,"I cannot answer this question as it refers to data from May 2026, which is beyond my knowledge cutoff.",False,0.0029370000000001895,4.095322799985297,1
+strong_no_tools,fresh-79,"I don't have information about events in May 2026, as my knowledge cutoff is July 2025.",False,0.0023759999999999337,3.539887399994768,1
+strong_no_tools,fresh-80,"I don't have information about events from January 29, 2026, as it is beyond my knowledge cutoff date.",False,0.0020489999999999675,3.2048022000235505,1
+strong_no_tools,fresh-81,I don't have data for July 2026 passenger traffic at Istanbul Airport,False,0.0015900000000002024,3.1854512999998406,1
+strong_no_tools,fresh-82,I don't have information about this event,False,0.0014849999999997365,2.4232023999793455,1
+strong_no_tools,fresh-83,Molotov cocktail,False,0.004017000000000159,8.531343200011179,1
+strong_no_tools,fresh-84,I don't have information about this event.,False,0.0017279999999999518,2.6640939000062644,1
+strong_no_tools,fresh-85,I don't have data about 2026 events,False,0.001647000000000176,2.496743499999866,1
+strong_no_tools,fresh-86,"I don't have access to UK government financial data for January 2026, as it falls beyond my knowledge cutoff date.",False,0.003149999999999764,4.8996865000226535,1
+strong_no_tools,fresh-87,I don't have information about this event,False,0.0012570000000002857,2.0632139000226744,1
+strong_no_tools,fresh-88,I don't have information about this event.,False,0.002210999999999963,3.367809599963948,1
+strong_no_tools,fresh-89,"I don't have information about events in March 2026, as this is beyond my knowledge cutoff.",False,0.0020009999999999195,3.0984938999754377,1
+strong_no_tools,fresh-90,"I cannot verify this information, as it pertains to 2026, which is beyond my knowledge cutoff.",False,0.0037560000000000926,5.602997299982235,1
+strong_no_tools,fresh-91,"I don't have information about events in July 2026, as it is beyond my knowledge cutoff date.",False,0.0024599999999996847,3.479204200033564,1
+strong_no_tools,fresh-92,"I don't have sufficient information to confirm who returns as Sinaloa governor on August 21, 2026.",False,0.004731000000000041,7.006500800023787,1
+strong_no_tools,fresh-93,Unknown — the 2026 FIFA World Cup final has not yet occurred.,False,0.0017249999999999766,2.8724677999853157,1
+strong_no_tools,fresh-94,I don't have information about Eurovision 2026,False,0.0014130000000003307,2.533426199981477,1
+strong_no_tools,fresh-95,The 2026 Men's T20 World Cup had not yet occurred as of my knowledge cutoff.,False,0.001598999999999684,2.642153499997221,1
+strong_no_tools,fresh-96,Katowice,False,0.0011939999999999173,1.8368064999813214,1
+strong_no_tools,fresh-97,"Truist Park in Atlanta, Georgia",False,0.0013230000000001851,3.530848300026264,1
+strong_no_tools,fresh-98,"I don't have information about this event, as it falls after my knowledge cutoff date.",False,0.00263100000000005,4.173235599999316,1
+strong_no_tools,fresh-99,I don't have verified information about events in June 2026.,False,0.0021900000000001363,3.2402635000180453,1
+strong_no_tools,fresh-100,"I don't have verified information about Artemis II's flight in April 2026, as this is beyond my knowledge cutoff.",False,0.0022739999999998872,3.896724200050812,1
+strong_no_tools,fresh-101,I don't have information about a 2026 Lebanon war ceasefire.,False,0.002994000000000163,4.566694899986032,1
+strong_no_tools,fresh-102,I don't have sufficient information to name a specific Hero of Ukraine recipient in 2025 without more context.,False,0.003980999999999568,6.8601608000462875,1
+strong_no_tools,fresh-103,"I don't have information about events in February 2026, as my knowledge cutoff is before that date.",False,0.00186300000000017,2.9224345999537036,1
+strong_no_tools,fresh-104,21,True,0.0032280000000000086,4.697124800004531,1
+strong_no_tools,fresh-105,无法确认2026年4月中国国航和中国南方航空燃油附加费的具体涨幅，请查阅最新官方公告。,False,0.003605999999999998,4.997731400013436,1
+strong_no_tools,fresh-106,Terminal 3 (T3),False,0.001958999999999822,3.5327369999722578,1
+strong_no_tools,fresh-107,"January 11 is not a specific notable event in Benin; the nearby notable holiday is Vodoun Day (Fête du Vodoun) on January 10. If you are referring to a specific event scheduled for January 11, 2026, please provide more context.",False,0.0066030000000001365,9.350857599987648,1
+strong_no_tools,fresh-108,I cannot answer questions about future events beyond my knowledge cutoff.,False,0.001368000000000258,2.4206295000039972,1
+strong_no_tools,fresh-109,I don't know — this event is beyond my knowledge cutoff date.,False,0.001406999999999936,2.550828300009016,1
+strong_no_tools,fresh-110,Unknown — this event has not occurred yet,False,0.0012810000000000876,2.553455599991139,1
+strong_no_tools,fresh-111,I don't have information about events in June 2026.,False,0.0019199999999996997,3.0533501000027172,1
+strong_no_tools,fresh-112,"My knowledge cutoff is July 2025, so I cannot answer about events in May 2026.",False,0.0014970000000000816,2.465206200024113,1
+strong_no_tools,fresh-113,I don't know,False,0.001190999999999942,2.029546700010542,1
+strong_no_tools,fresh-114,I don't have information about events after my knowledge cutoff date of July 2025.,False,0.002124000000000237,2.6872634000028484,1
+strong_no_tools,fresh-115,I don't have data on events from March 2026,False,0.0023999999999997357,3.761622100020759,1
+strong_no_tools,fresh-116,"Riviera Country Club (Pacific Palisades, California)",False,0.0027600000000003178,4.304087799973786,1
+strong_no_tools,fresh-117,Line 7,False,0.0014279999999997628,2.1707171999732964,1
+strong_no_tools,fresh-118,I don't have information about this event,False,0.0013499999999999623,2.4820616000215523,1
+strong_no_tools,fresh-119,I don't have information about events in May 2026.,False,0.0021659999999998902,3.47568480001064,1
+strong_no_tools,fresh-120,Operation Prosperity Guardian (sanctions enforcement operation related to seizing Iranian oil tankers in January 2026),False,0.004779000000000089,7.317157600016799,1
+strong_no_tools,fresh-121,I don't have data on a June 2026 earthquake in Yamanashi Prefecture.,False,0.0013650000000002827,2.4000283000059426,1
+strong_no_tools,fresh-122,I don't have information about events in February 2026.,False,0.0019169999999997245,3.2726880999980494,1
+strong_no_tools,fresh-123,I don't know,False,0.0011220000000000674,3.760179299977608,1
+strong_no_tools,fresh-124,I don't have information about this event,False,0.0013649999999998386,2.5301234999787994,1
+strong_no_tools,fresh-125,"I don't have information about events from September 2026, as this is beyond my knowledge cutoff date.",False,0.0018480000000002939,3.1453176999930292,1
+strong_no_tools,fresh-126,"I don't have information about events in April 2026, as this is beyond my knowledge cutoff.",False,0.002558999999999756,4.309595700004138,1
+strong_no_tools,fresh-127,"I don't have reliable information about who specifically urged consumers to stop calling AI ""slop"" in January 2026. This event may be outside my knowledge or I lack sufficient detail to answer accurately.",False,0.0042960000000000775,6.609099099994637,1
+strong_no_tools,fresh-128,"I don't have information about this July 2026 open letter, as it is beyond my knowledge cutoff date.",False,0.0020489999999999675,3.1300612000050023,1
+strong_no_tools,fresh-129,Australia,False,0.00263100000000005,4.28537530003814,1
+strong_no_tools,fresh-130,"I don't have information about events in October 2026, as this is beyond my knowledge cutoff date.",False,0.0021900000000001363,3.3716247000265867,1
+strong_no_tools,fresh-131,"I don't have information about this event, as it occurred after my knowledge cutoff date.",False,0.0024180000000000312,3.865624099969864,1
+strong_no_tools,fresh-132,"I don't have information about events from April 2026, as my knowledge cutoff is July 2025.",False,0.0021809999999997665,2.7909548999741673,1
+strong_no_tools,fresh-133,"I don't have information about events from January 7, 2026, as this is beyond my knowledge cutoff date.",False,0.0021960000000000868,4.447184799995739,1
+strong_no_tools,fresh-134,DeepSeek,False,0.0017399999999998528,3.018826799991075,1
+strong_no_tools,fresh-135,"I don't have verified information about events in July 2026, as this is beyond my knowledge cutoff.",False,0.002295000000000158,3.612274700019043,1
+strong_no_tools,fresh-136,Grok's image generation feature (Aurora),True,0.003531000000000173,5.948016199981794,1
+strong_no_tools,manual-001,"I don't have information about OpenAI API releases from October 2026, as this is beyond my knowledge cutoff.",False,0.0022409999999997154,3.686653100012336,1
+strong_no_tools,manual-002,"I don't have information about events from October 2026, as my knowledge cutoff is before that date.",False,0.002076000000000189,2.751632699975744,1
+strong_no_tools,manual-003,"I don't have information about events from October 2026, as this date is beyond my knowledge cutoff.",False,0.0015060000000000073,2.5530234000179917,1
+strong_no_tools,manual-004,I don't have information about events after my knowledge cutoff date.,False,0.0017100000000001003,2.9863773999968544,1
+strong_no_tools,manual-005,I don't know — this date is beyond my knowledge cutoff.,False,0.001970999999999723,3.20138980000047,1
+strong_no_tools,manual-006,I don't have information about this event (beyond my knowledge cutoff),False,0.0015689999999999316,2.6564187000039965,1
+strong_no_tools,manual-007,I don't know,False,0.0013620000000003074,2.5599154999945313,1
+strong_no_tools,manual-008,I don't have information about events from October 2026.,False,0.0015209999999998836,2.6372431000345387,1
+strong_no_tools,manual-009,"I don't have information about events in September 2026, as it's beyond my knowledge cutoff.",False,0.002415000000000056,3.67953480000142,1
+strong_no_tools,manual-010,I don't know,False,0.0014369999999996885,2.608935800031759,1
+strong_no_tools,manual-011,I don't have information about this — it's beyond my knowledge cutoff.,False,0.0019380000000004394,3.6203238999587484,1
+strong_no_tools,manual-012,"I don't have information about events from October 6, 2026, which is beyond my knowledge cutoff.",False,0.0018209999999996285,3.0497934000450186,1
+strong_no_tools,manual-013,"I don't have information about events in October 2026, as it is beyond my knowledge cutoff.",False,0.0020250000000001656,3.3958873000228778,1
+cheap_no_tools,fresh-0,"January 18, 2026",False,4.304999999993342e-05,2.6694429999915883,1
+cheap_no_tools,fresh-1,"February 24, 2021",False,3.720000000018153e-05,2.4875532000442035,1
+cheap_no_tools,fresh-2,информация недоступна.,False,3.8999999999900226e-05,2.1627704999991693,1
+cheap_no_tools,fresh-3,Unknown,False,6.615000000009807e-05,2.2096628000144847,1
+cheap_no_tools,fresh-4,ban on the sale of gas-powered and diesel-powered vehicles,False,5.804999999980964e-05,2.025506799982395,1
+cheap_no_tools,fresh-5,Unknown.,False,5.025000000014046e-05,2.870022399991285,1
+cheap_no_tools,fresh-6,Нету данных.,False,5.355000000006882e-05,2.1983367999782786,1
+cheap_no_tools,fresh-7,Unknown.,False,4.184999999989891e-05,2.5844693000544794,1
+cheap_no_tools,fresh-8,Нет данных.,False,4.2749999999980304e-05,1.8612362000276335,1
+cheap_no_tools,fresh-9,Copenhagen,False,3.2999999999949736e-05,2.14691839995794,1
+cheap_no_tools,fresh-10,11,False,3.8700000000169155e-05,2.453450499975588,1
+cheap_no_tools,fresh-11,Unknown,False,3.884999999992367e-05,1.9421463999897242,1
+cheap_no_tools,fresh-12,Data not available.,False,4.500000000007276e-05,1.8340434999554418,1
+cheap_no_tools,fresh-13,Data not available.,False,5.2949999999940545e-05,2.8685624999925494,1
+cheap_no_tools,fresh-14,Sevilla,False,2.324999999991917e-05,2.1516761999810115,1
+cheap_no_tools,fresh-15,Неподходящая информация.,False,5.895000000011308e-05,2.6502073000301607,1
+cheap_no_tools,fresh-16,Information not available.,False,5.159999999992948e-05,2.877874600002542,1
+cheap_no_tools,fresh-17,Unknown event.,False,5.744999999990341e-05,2.645355099986773,1
+cheap_no_tools,fresh-18,6 November 2019,False,4.215000000007407e-05,1.940928999974858,1
+cheap_no_tools,fresh-19,Unknown.,False,5.7299999999926854e-05,2.020923000003677,1
+cheap_no_tools,fresh-20,Single-elimination format.,True,8.669999999999511e-05,3.8240551000344567,1
+cheap_no_tools,fresh-21,Unknown.,False,4.515000000004932e-05,1.9356968000065535,1
+cheap_no_tools,fresh-22,Amphibia,False,6.810000000001537e-05,3.0763227000134066,1
+cheap_no_tools,fresh-23,Неизвестно.,False,4.350000000008514e-05,2.339197499968577,1
+cheap_no_tools,fresh-24,National Park,False,3.764999999988916e-05,2.3562105000019073,1
+cheap_no_tools,fresh-25,Information not available.,False,5.3250000000115705e-05,2.54980420001084,1
+cheap_no_tools,fresh-26,Unknown.,False,6.329999999987734e-05,2.157860699982848,1
+cheap_no_tools,fresh-27,Markus Stenz,False,4.3650000000061695e-05,1.6272752999793738,1
+cheap_no_tools,fresh-28,N/A,False,4.650000000006038e-05,1.7497822000295855,1
+cheap_no_tools,fresh-29,Unknown,False,4.46999999998976e-05,2.177250400010962,1
+cheap_no_tools,fresh-30,Information not available.,False,5.025000000014046e-05,2.5134476000093855,1
+cheap_no_tools,fresh-31,Неизвестно.,False,5.8200000000008245e-05,2.654994999989867,1
+cheap_no_tools,fresh-32,Unknown.,False,4.0799999999840963e-05,2.2502426000428386,1
+cheap_no_tools,fresh-33,Information not available.,False,4.409999999999137e-05,3.59781240002485,1
+cheap_no_tools,fresh-34,No information available.,False,4.8900000000129396e-05,2.858537799969781,1
+cheap_no_tools,fresh-35,"У меня нет информации о событиях, произошедших после октября 2023 года. Пожалуйста, проверьте актуальные новости для получения самой последней информации.",False,4.2299999999828586e-05,2.2418089999700896,1
+cheap_no_tools,fresh-36,Unknown,False,5.790000000005513e-05,2.0491269000340253,1
+cheap_no_tools,fresh-37,Not available.,False,4.844999999997768e-05,2.5605704999761656,1
+cheap_no_tools,fresh-38,Unknown.,False,5.940000000004275e-05,2.448926500044763,1
+cheap_no_tools,fresh-39,Information not available.,False,5.3250000000115705e-05,1.943718499969691,1
+cheap_no_tools,fresh-40,Unable to provide information.,False,3.914999999987678e-05,2.3518139999941923,1
+cheap_no_tools,fresh-41,Unknown,False,5.085000000004669e-05,2.0622401000000536,1
+cheap_no_tools,fresh-42,Not available.,False,4.065000000008645e-05,2.6383863000082783,1
+cheap_no_tools,fresh-43,Unknown.,False,4.9199999999860466e-05,1.8449849999742582,1
+cheap_no_tools,fresh-44,Unknown,False,4.065000000008645e-05,2.1458396000089124,1
+cheap_no_tools,fresh-45,Неизвестно.,False,5.054999999987153e-05,2.133107999979984,1
+cheap_no_tools,fresh-46,Н/A,False,4.4550000000143086e-05,2.0573257000069134,1
+cheap_no_tools,fresh-47,Information not available.,False,5.969999999999587e-05,2.0898566000396386,1
+cheap_no_tools,fresh-48,Unknown.,False,4.634999999986178e-05,2.4067062999820337,1
+cheap_no_tools,fresh-49,Unknown.,False,4.155000000016784e-05,2.4035768000176176,1
+cheap_no_tools,fresh-50,нет данных,False,5.414999999997505e-05,2.1442219000309706,1
+cheap_no_tools,fresh-51,Information not available.,False,4.0049999999958175e-05,4.89830359996995,1
+cheap_no_tools,fresh-52,N/A,False,5.699999999997374e-05,2.019728999992367,1
+cheap_no_tools,fresh-53,N/A,False,4.874999999993079e-05,2.547723399999086,1
+cheap_no_tools,fresh-54,"Извините, я не могу предоставить информацию о событиях после октября 2023 года. Пожалуйста, уточните вопрос.",False,3.825000000001744e-05,2.428177500027232,1
+cheap_no_tools,fresh-55,Unknown,False,5.0700000000070133e-05,1.9776299000368454,1
+cheap_no_tools,fresh-56,Data not available.,False,4.080000000006301e-05,2.4496743000345305,1
+cheap_no_tools,fresh-57,Information not available.,False,4.649999999983834e-05,1.9429414000478573,1
+cheap_no_tools,fresh-58,Unknown.,False,5.145000000017497e-05,2.960321400023531,1
+cheap_no_tools,fresh-59,"The official poster for the 2026 FIFA World Cup was created by a collaboration of artists, led by the renowned American graphic designer, artist, and illustrator, Eric Arse.",False,4.484999999987416e-05,2.7508560999995098,1
+cheap_no_tools,fresh-60,Unknown,False,4.3650000000061695e-05,1.7128965000156313,1
+cheap_no_tools,fresh-61,Unknown,False,5.9250000000066194e-05,2.8035966000170447,1
+cheap_no_tools,fresh-62,Unknown.,False,4.8599999999954235e-05,2.345400599995628,1
+cheap_no_tools,fresh-63,Unknown,False,4.46999999998976e-05,2.0553073000046425,1
+cheap_no_tools,fresh-64,Unknown.,False,3.719999999995949e-05,2.3462602999643423,1
+cheap_no_tools,fresh-65,Information not available.,False,5.9100000000089636e-05,2.763030600035563,1
+cheap_no_tools,fresh-66,Data not available.,False,4.739999999991973e-05,2.5683926000492647,1
+cheap_no_tools,fresh-67,Unknown,False,3.885000000014571e-05,2.416755899961572,1
+cheap_no_tools,fresh-68,Information not available.,False,4.7549999999896286e-05,1.8376851999782957,1
+cheap_no_tools,fresh-69,London,False,3.105000000003244e-05,1.6878929000231437,1
+cheap_no_tools,fresh-70,"""Rail Baltica"" high-speed rail service.",False,6.345000000007595e-05,2.6262133000418544,1
+cheap_no_tools,fresh-71,Unable to provide information.,False,5.1899999999882596e-05,1.8310817999881692,1
+cheap_no_tools,fresh-72,Неподходящая информация.,False,5.445000000015021e-05,2.68151600001147,1
+cheap_no_tools,fresh-73,Unknown.,False,5.50499999998344e-05,1.924679899995681,1
+cheap_no_tools,fresh-74,No information available.,False,5.264999999998743e-05,2.5455827999976464,1
+cheap_no_tools,fresh-75,Information not available.,False,4.9950000000187345e-05,2.3647741999593563,1
+cheap_no_tools,fresh-76,Unknown.,False,4.830000000000112e-05,2.8679341999813914,1
+cheap_no_tools,fresh-77,Information not available.,False,4.6949999999990055e-05,2.560268500004895,1
+cheap_no_tools,fresh-78,Unable to provide future data.,False,5.4599999999904725e-05,2.0348112999927253,1
+cheap_no_tools,fresh-79,Unknown information.,False,7.019999999990922e-05,2.1498293000040576,1
+cheap_no_tools,fresh-80,Информация недоступна.,False,5.550000000020816e-05,2.72827750002034,1
+cheap_no_tools,fresh-81,Future data not available.,False,3.94499999998299e-05,1.7591313000302762,1
+cheap_no_tools,fresh-82,"Я не могу предоставить информацию о событиях, произошедших после октября 2023 года. Пожалуйста, проверьте актуальные источники новостей для получения самой свежей информации.",False,4.500000000007276e-05,2.0499605999793857,1
+cheap_no_tools,fresh-83,Unknown,False,3.8999999999900226e-05,1.6899373999913223,1
+cheap_no_tools,fresh-84,Unknown,False,5.7450000000125456e-05,2.659441599971615,1
+cheap_no_tools,fresh-85,Data not available.,False,5.6249999999868905e-05,2.4605316999950446,1
+cheap_no_tools,fresh-86,Невозможно предоставить информацию.,False,5.145000000017497e-05,2.5534058999619447,1
+cheap_no_tools,fresh-87,Unknown information.,False,5.264999999998743e-05,1.9921235999790952,1
+cheap_no_tools,fresh-88,Information not available.,False,4.9349999999837024e-05,1.7677250999840908,1
+cheap_no_tools,fresh-89,Информация недоступна.,False,6.195000000008832e-05,2.407547799986787,1
+cheap_no_tools,fresh-90,Office for National Statistics,False,4.739999999991973e-05,2.8363464000285603,1
+cheap_no_tools,fresh-91,"Sorry, I cannot provide information from future events or data beyond my last training cutoff in October 2023.",False,3.554999999999531e-05,2.379781399969943,1
+cheap_no_tools,fresh-92,Unknown,False,4.440000000016653e-05,1.8422525000059977,1
+cheap_no_tools,fresh-93,Unknown.,False,3.524999999982015e-05,2.0361402000417,1
+cheap_no_tools,fresh-94,Нет данных о результатах.,False,5.625000000009095e-05,2.6428954000002705,1
+cheap_no_tools,fresh-95,Not applicable.,False,4.0049999999958175e-05,2.3371091000153683,1
+cheap_no_tools,fresh-96,"Madrid, Spain",False,3.810000000004088e-05,2.700007800012827,1
+cheap_no_tools,fresh-97,"Philadelphia, Pennsylvania",False,3.5100000000065634e-05,1.7344759000116028,1
+cheap_no_tools,fresh-98,No such document exists.,False,8.174999999988053e-05,2.144540000008419,1
+cheap_no_tools,fresh-99,Unknown.,False,3.750000000013465e-05,2.0918605999904685,1
+cheap_no_tools,fresh-100,Unknown.,False,5.7149999999950296e-05,2.3294893999700435,1
+cheap_no_tools,fresh-101,Unknown,False,4.619999999988522e-05,1.8207517999690026,1
+cheap_no_tools,fresh-102,информация отсутствует.,False,4.2600000000003746e-05,1.6520653999759816,1
+cheap_no_tools,fresh-103,Unknown.,False,3.7650000000111206e-05,2.0431511999922805,1
+cheap_no_tools,fresh-104,Please check the latest news sources.,False,5.444999999992817e-05,1.8223260999657214,1
+cheap_no_tools,fresh-105,Unable to determine.,False,4.935000000005907e-05,2.5590678000007756,1
+cheap_no_tools,fresh-106,новый терминал T3,False,4.395000000001481e-05,2.5570320999831893,1
+cheap_no_tools,fresh-107,Presidential election,False,2.324999999991917e-05,3.498840600019321,1
+cheap_no_tools,fresh-108,Unable to predict future events.,False,4.979999999998874e-05,2.3458549000206403,1
+cheap_no_tools,fresh-109,Невозможно ответить.,False,5.670000000002062e-05,3.7055630999966525,1
+cheap_no_tools,fresh-110,Unknown.,False,3.8399999999993994e-05,1.5779806000064127,1
+cheap_no_tools,fresh-111,Данные недоступны.,False,6.269999999997111e-05,2.056074800028,1
+cheap_no_tools,fresh-112,Information not available.,False,6.0750000000053817e-05,2.0539263999671675,1
+cheap_no_tools,fresh-113,Unknown.,False,4.15499999999458e-05,2.368049599986989,1
+cheap_no_tools,fresh-114,Unknown data after October 2023.,False,4.409999999999137e-05,1.8130714999861084,1
+cheap_no_tools,fresh-115,Unknown,False,5.040000000011702e-05,1.7934539999696426,1
+cheap_no_tools,fresh-116,Organizers from the USGA and sponsors.,False,6.55499999999698e-05,2.4828061999869533,1
+cheap_no_tools,fresh-117,Nanjing Metro Line 2 Extension,False,3.884999999992367e-05,2.1764794000191614,1
+cheap_no_tools,fresh-118,Unknown event.,False,5.310000000013915e-05,2.903910900000483,1
+cheap_no_tools,fresh-119,Неизвестно.,False,5.699999999997374e-05,3.4193329000263475,1
+cheap_no_tools,fresh-120,"I'm sorry, but I cannot provide real-time or future information beyond my last update in October 2023. Therefore, I cannot answer what operation was involved in the United States seizing tankers in January 2026.",False,4.830000000000112e-05,2.449969599954784,1
+cheap_no_tools,fresh-121,Невероятно.,False,5.9250000000066194e-05,2.499630399979651,1
+cheap_no_tools,fresh-122,Information unavailable.,False,5.039999999989497e-05,1.840713300043717,1
+cheap_no_tools,fresh-123,Нет данных.,False,5.790000000005513e-05,2.3804621000308543,1
+cheap_no_tools,fresh-124,Нету данных.,False,3.810000000004088e-05,3.205864699964877,1
+cheap_no_tools,fresh-125,"Извините, но я не обладаю информацией о событиях после октября 2023 года. Поэтому не могу ответить на ваш вопрос.",False,4.019999999993473e-05,1.6656925999559462,1
+cheap_no_tools,fresh-126,Google I/O 2026,False,2.639999999987097e-05,1.5406486000283621,1
+cheap_no_tools,fresh-127,Unknown event.,False,4.575000000017759e-05,2.8967976000276394,1
+cheap_no_tools,fresh-128,An Open Letter on Frontier AI,False,3.869999999994711e-05,2.0475617999909446,1
+cheap_no_tools,fresh-129,Unable to provide answer.,False,4.935000000005907e-05,1.7716091999900527,1
+cheap_no_tools,fresh-130,Fields Institute,False,3.7949999999842277e-05,1.8856718000024557,1
+cheap_no_tools,fresh-131,No information available.,False,5.460000000012677e-05,2.1902015999658033,1
+cheap_no_tools,fresh-132,Information not available.,False,5.7299999999926854e-05,2.933112099999562,1
+cheap_no_tools,fresh-133,N/A,False,4.709999999996661e-05,1.7132567000226118,1
+cheap_no_tools,fresh-134,ChatGPT,False,4.4249999999967926e-05,1.6597544000251219,1
+cheap_no_tools,fresh-135,Information not available.,False,4.8000000000048004e-05,2.3995562000200152,1
+cheap_no_tools,fresh-136,Information not available.,False,4.935000000005907e-05,2.4758222000091337,1
+cheap_no_tools,manual-001,No information available.,False,5.414999999997505e-05,2.4173663000110537,1
+cheap_no_tools,manual-002,Unknown,False,4.319999999990998e-05,2.3038153999950737,1
+cheap_no_tools,manual-003,Нельзя ответить.,False,3.6750000000029814e-05,2.1444786000065506,1
+cheap_no_tools,manual-004,Unable to provide information.,False,5.73000000001489e-05,2.29207550000865,1
+cheap_no_tools,manual-005,Unknown.,False,5.0849999999824647e-05,2.296450400026515,1
+cheap_no_tools,manual-006,Information not available.,False,5.145000000017497e-05,1.8047924000420608,1
+cheap_no_tools,manual-007,Information not available.,False,5.7299999999926854e-05,2.4711004000273533,1
+cheap_no_tools,manual-008,Claude 1.0,False,2.6249999999894413e-05,3.532237300009001,1
+cheap_no_tools,manual-009,Sonnet 6,False,5.4300000000173654e-05,1.9168718000291847,1
+cheap_no_tools,manual-010,N/A,False,5.609999999989235e-05,1.8077244000160135,1
+cheap_no_tools,manual-011,Claude 3,False,4.050000000010989e-05,2.3339210000121966,1
+cheap_no_tools,manual-012,Unknown information.,False,5.429999999995161e-05,1.7726770000299439,1
+cheap_no_tools,manual-013,Невозможно ответить.,False,4.830000000000112e-05,1.8723638000083156,1
+cheap_web,fresh-0,Информация отсутствует.,False,0.0010748999999998787,19.77657960000215,6
+cheap_web,fresh-1,22 March 2026,True,0.00019650000000015488,9.216291500022635,3
+cheap_web,fresh-2,Переговоры по окончанию войны в Украине,False,0.0003292499999998366,10.497880300041288,3
+cheap_web,fresh-3,Нет информации о соглашении.,False,0.0002923500000000523,17.181879599986132,5
+cheap_web,fresh-4,Государственный Договор (Statewide Treaty).,False,0.0006129000000001383,19.80041219998384,6
+cheap_web,fresh-5,2,False,9.46499999998629e-05,6.563575499982107,2
+cheap_web,fresh-6,519,False,0.0001238999999999546,5.469511899980716,2
+cheap_web,fresh-7,Информация отсутствует.,False,0.0007185000000000663,21.866056900005788,6
+cheap_web,fresh-8,Неизвестно.,False,0.00040200000000001346,21.4154070999939,6
+cheap_web,fresh-9,"New Delhi, India",True,9.210000000003937e-05,5.46926700003678,2
+cheap_web,fresh-10,Information not available.,False,0.0003356999999999388,17.949473700020462,5
+cheap_web,fresh-11,Not available.,False,0.0001819499999999863,9.432419899967499,3
+cheap_web,fresh-12,Data unavailable.,False,0.0001684500000000977,5.958335499977693,2
+cheap_web,fresh-13,Specific temperature not found.,False,0.00017865000000005793,5.6477829000214115,2
+cheap_web,fresh-14,Мадрид.,False,0.0009127499999999067,20.13678699999582,6
+cheap_web,fresh-15,Неизвестно.,False,0.0007661999999999392,20.372821299999487,6
+cheap_web,fresh-16,Montreal Victoire,True,0.00013394999999993829,5.3945802000234835,2
+cheap_web,fresh-17,Неизвестно.,False,0.0008487000000001466,20.928286499984097,6
+cheap_web,fresh-18,18 ноября 2021 года,False,0.0010410000000000696,20.037470999988727,6
+cheap_web,fresh-19,Disney Television Animation,False,0.0011227499999999502,20.072507700009737,6
+cheap_web,fresh-20,Single-elimination tournament with 32 matches.,True,0.00010664999999998592,5.8603371999925,2
+cheap_web,fresh-21,No information available.,False,0.0005974499999998883,21.67741499998374,5
+cheap_web,fresh-22,информация не найдена.,False,0.00040005000000009616,18.800634200044442,5
+cheap_web,fresh-23,Информация недоступна.,False,0.0008733000000000768,20.11468800000148,6
+cheap_web,fresh-24,Объявление о засухе.,False,0.0001745999999998027,5.5652950999792665,2
+cheap_web,fresh-25,"Declaration of ""open war"" and initiation of Operation Ghazab lil-Haq.",True,0.00033210000000005735,10.206128299992997,3
+cheap_web,fresh-26,Information not available.,False,0.00018644999999994916,9.708303399966098,3
+cheap_web,fresh-27,Неизвестно.,False,0.0007782000000000622,19.991667399997823,6
+cheap_web,fresh-28,6,False,0.00013529999999994935,5.578670999966562,2
+cheap_web,fresh-29,46,False,0.00011730000000009788,5.883939500025008,2
+cheap_web,fresh-30,Erzincan,False,0.00011310000000008813,5.401736200030427,2
+cheap_web,fresh-31,Ädilet party led by Aibek Dädebai,True,0.0004921499999999135,13.790083300031256,4
+cheap_web,fresh-32,Unknown,False,0.0001404000000000405,6.319629700039513,2
+cheap_web,fresh-33,No information available.,False,0.0003190499999998764,11.396136399998795,3
+cheap_web,fresh-34,Information not found.,False,0.00016980000000010875,9.878891600004863,3
+cheap_web,fresh-35,Information not found.,False,0.0004984500000000391,14.098771899996791,4
+cheap_web,fresh-36,142,False,0.00011099999999997223,5.327520599996205,2
+cheap_web,fresh-37,Невозможно найти информацию.,False,0.0008461499999998789,28.24434909998672,6
+cheap_web,fresh-38,13th Chief Minister of Kerala,True,0.0001279499999999878,5.918846799992025,2
+cheap_web,fresh-39,"Adamuz, Córdoba",False,0.0001353000000001714,8.36083449999569,2
+cheap_web,fresh-40,Нет информации.,False,0.0007715999999999834,19.53164519998245,6
+cheap_web,fresh-41,Information not available.,False,0.0001279499999999878,6.576719100004993,2
+cheap_web,fresh-42,Narendra Modi,False,0.0001226999999999201,6.260131100018043,2
+cheap_web,fresh-43,Zohran Mamdani,True,0.00011910000000003862,5.604224000009708,2
+cheap_web,fresh-44,Not found.,False,0.0003410999999999831,14.419900899985805,4
+cheap_web,fresh-45,No information found.,False,0.00026280000000000747,14.465137000021059,4
+cheap_web,fresh-46,3,False,0.00012060000000002624,5.6437723999843,2
+cheap_web,fresh-47,Minister of Education,False,0.00013920000000000599,5.4524831000017,2
+cheap_web,fresh-48,Данные отсутствуют.,False,0.000845100000000043,20.432845300005283,6
+cheap_web,fresh-49,Information not available.,False,0.00039179999999983117,15.727596300013829,4
+cheap_web,fresh-50,Нет данных о штрафе.,False,0.0002536500000001052,10.404477199946996,3
+cheap_web,fresh-51,Information not found.,False,0.00033029999999989457,19.659573899989482,5
+cheap_web,fresh-52,5.0 and 5.1 (5.2),True,0.00013095000000018509,5.854896700009704,2
+cheap_web,fresh-53,информация не найдена.,False,0.00020129999999984882,9.502834899991285,3
+cheap_web,fresh-54,80,True,0.0001154999999999351,5.692232800007332,2
+cheap_web,fresh-55,2,False,0.00018150000000005662,10.141603299998678,3
+cheap_web,fresh-56,Информация недоступна.,False,0.00046650000000014735,12.09398579999106,4
+cheap_web,fresh-57,Нет информации.,False,0.0005792999999998383,19.762837099959143,6
+cheap_web,fresh-58,информация отсутствует.,False,0.001172550000000161,25.05810039996868,6
+cheap_web,fresh-59,Неизвестно,False,0.0012230999999998104,22.26124909997452,6
+cheap_web,fresh-60,Information not available.,False,0.00011775000000002755,5.517781100003049,2
+cheap_web,fresh-61,14,False,9.404999999995667e-05,5.3134663999662735,2
+cheap_web,fresh-62,No information available.,False,0.00022455000000021208,10.043223200016655,3
+cheap_web,fresh-63,No information available.,False,0.00017804999999992965,10.368152200011536,3
+cheap_web,fresh-64,Информация отсутствует.,False,0.0007972499999999716,18.744285099965055,6
+cheap_web,fresh-65,No data found.,False,0.0002237999999998852,9.6717974000494,3
+cheap_web,fresh-66,No information available.,False,0.00017580000000005924,8.902049999975134,3
+cheap_web,fresh-67,Information not available.,False,0.0002515499999999893,14.677430399984587,4
+cheap_web,fresh-68,Mark Carney,True,0.00018945000000014645,9.439154199964833,3
+cheap_web,fresh-69,"Leipzig, Germany",True,0.00011249999999995985,5.1529337000101805,2
+cheap_web,fresh-70,New night train service between Paris Nord and Berlin,True,0.00035954999999998627,18.962179699970875,5
+cheap_web,fresh-71,Nikita Solovyovat,True,0.00011325000000006469,5.159391799999867,2
+cheap_web,fresh-72,Dharmendra Pradhan,True,0.00014654999999996754,5.40242009999929,2
+cheap_web,fresh-73,No information found.,False,0.00018600000000001948,13.478503999998793,3
+cheap_web,fresh-74,Daniel Ortega,True,0.00030194999999988426,11.077465900045354,3
+cheap_web,fresh-75,Информация отсутствует.,False,0.0008935500000000207,19.959659000043757,6
+cheap_web,fresh-76,life sentence,False,0.00016590000000005212,6.225332799949683,2
+cheap_web,fresh-77,Information not available.,False,0.0003985499999998865,19.540708800021093,5
+cheap_web,fresh-78,Невозможно определить.,False,0.0010372499999999896,20.657311299990397,6
+cheap_web,fresh-79,Неизвестно.,False,0.0004486500000000504,18.605112500023097,6
+cheap_web,fresh-80,"УGC Equity Regulations, 2026",False,0.00015239999999994147,5.903997699962929,2
+cheap_web,fresh-81,Not available,False,0.0001543500000000808,5.839830200013239,2
+cheap_web,fresh-82,28,False,0.0001987500000000253,9.475997500005178,3
+cheap_web,fresh-83,Информация недоступна.,False,0.0004086000000000922,20.159613299998455,6
+cheap_web,fresh-84,Unknown,False,0.0005627999999999744,20.707747799984645,6
+cheap_web,fresh-85,38.0 °C (100.4 °F),False,0.0001903500000000058,6.186496399983298,2
+cheap_web,fresh-86,Data not available,False,0.00016274999999987827,9.840332099993248,3
+cheap_web,fresh-87,Keiko Fujimori,False,0.0005335500000001048,13.031669499992859,4
+cheap_web,fresh-88,No information found.,False,0.0005731499999999112,17.710968100000173,5
+cheap_web,fresh-89,Неизвестно.,False,0.0009405000000000108,19.325494699995033,6
+cheap_web,fresh-90,Неизвестно.,False,0.0007972499999999716,19.820450800005347,6
+cheap_web,fresh-91,No information available.,False,0.00011640000000001649,4.472470000036992,2
+cheap_web,fresh-92,Information not available.,False,0.0004912500000000541,20.15579250000883,5
+cheap_web,fresh-93,Spain,True,0.0001454999999999096,5.536846500006504,2
+cheap_web,fresh-94,11th place,True,0.00011025000000008944,5.3570830000098795,2
+cheap_web,fresh-95,India,True,0.00012630000000002362,5.342449799994938,2
+cheap_web,fresh-96,"Istanbul, Turkey",True,0.00013050000000003337,9.635755600000266,2
+cheap_web,fresh-97,"Citizens Bank Park, Philadelphia, Pennsylvania",True,0.0001238999999999546,5.480404999980237,2
+cheap_web,fresh-98,No document signed.,False,0.00036674999999997127,9.78820159996394,3
+cheap_web,fresh-99,Илон Маск,False,0.0001291500000000223,5.550918599998113,2
+cheap_web,fresh-100,"252,756 miles (406,771 km)",True,0.00014969999999991934,5.487727499974426,2
+cheap_web,fresh-101,"10 days, extended multiple times.",True,0.0003451500000000163,10.194268599967472,3
+cheap_web,fresh-102,No information available.,False,0.00012570000000011738,5.47755579999648,2
+cheap_web,fresh-103,Keiko Fujimori,False,0.00013904999999980738,6.269576599996071,2
+cheap_web,fresh-104,Неизвестно.,False,0.0004830000000000112,18.27213210001355,6
+cheap_web,fresh-105,Information not available.,False,0.0001903500000000058,8.56765230000019,2
+cheap_web,fresh-106,No specific openings or events in February 2026 found.,False,0.000893100000000091,20.246646700019483,5
+cheap_web,fresh-107,Presidential elections.,False,0.00022334999999995553,13.375666500010993,4
+cheap_web,fresh-108,Информация отсутствует.,False,0.0004941000000000528,23.116790899948683,6
+cheap_web,fresh-109,Antisemitic attacks in London.,False,0.00017445000000004818,6.410573199973442,2
+cheap_web,fresh-110,Clay Fuller,True,0.00010334999999983552,6.866562900017016,2
+cheap_web,fresh-111,Prime Minister,True,0.0001500000000000945,5.696089799981564,2
+cheap_web,fresh-112,Неизвестно,False,0.0009484500000001006,19.906040300033055,6
+cheap_web,fresh-113,Information not found.,False,0.00024194999999993527,9.371103699959349,3
+cheap_web,fresh-114,Неизвестно.,False,0.0010820999999998637,19.072939100035,6
+cheap_web,fresh-115,66,True,0.00018945000000014645,9.76365519996034,3
+cheap_web,fresh-116,Nelly Korda,True,0.0003313499999999525,13.600073899957351,4
+cheap_web,fresh-117,No specific details found.,False,0.0006152999999999853,18.00817080005072,5
+cheap_web,fresh-118,нет данных.,False,0.0005657999999999497,21.733017100021243,6
+cheap_web,fresh-119,Нет информации.,False,0.0005223000000000866,20.615662000025623,6
+cheap_web,fresh-120,Military raid in Venezuela,False,0.00016185000000001892,5.654908599972259,2
+cheap_web,fresh-121,No information found.,False,0.00012900000000004574,5.576239999965765,2
+cheap_web,fresh-122,Информация о смещении отсутствует.,False,0.0010782000000000291,20.18407970003318,6
+cheap_web,fresh-123,Burkina Faso,True,0.00028229999999984656,14.452204799978063,3
+cheap_web,fresh-124,No information found.,False,0.0003086999999999396,10.022161799948663,3
+cheap_web,fresh-125,OpenAI,True,0.00013440000000009,5.354925199993886,2
+cheap_web,fresh-126,Information not available.,False,0.0004483500000000973,13.91775060002692,4
+cheap_web,fresh-127,Папа Лев XIV,False,0.0010759499999999367,20.300134999968577,6
+cheap_web,fresh-128,Название неизвестно.,False,0.000995249999999892,19.568334199953824,6
+cheap_web,fresh-129,информация отсутствует.,False,0.0007848000000001409,20.63166029995773,6
+cheap_web,fresh-130,Unknown,False,0.0005536499999998501,18.336933100013994,5
+cheap_web,fresh-131,James Uthmeier,True,0.0006934500000002064,17.79985419998411,5
+cheap_web,fresh-132,Неизвестно.,False,0.0006194999999999951,19.874851000029594,6
+cheap_web,fresh-133,Нет информации.,False,0.0006713999999998777,19.956492300028913,6
+cheap_web,fresh-134,неизвестно,False,0.0006676500000000196,20.24341379996622,6
+cheap_web,fresh-135,Hugging Face breach,True,0.00012345000000002493,5.507530500006396,2
+cheap_web,fresh-136,feature related to generating non-consensual sexualized images,False,0.00044399999999988893,13.964362800004892,4
+cheap_web,manual-001,Decision API,False,0.0010506000000001237,18.981259499967564,6
+cheap_web,manual-002,PHP,True,0.00011834999999993379,5.375567300012335,2
+cheap_web,manual-003,Информация недоступна.,False,0.0010182000000000802,18.833740700036287,6
+cheap_web,manual-004,No information found.,False,0.00042299999999984017,13.191442799987271,4
+cheap_web,manual-005,Unknown.,False,0.0006724500000001576,18.027881300018635,5
+cheap_web,manual-006,Информация недоступна.,False,0.0011479500000000087,19.38920600002166,6
+cheap_web,manual-007,Неизвестно.,False,0.0005078999999998945,19.244977099995594,6
+cheap_web,manual-008,Claude Haiku,False,0.0010249500000001355,22.484762100037187,6
+cheap_web,manual-009,Sonnet 6.,False,0.0010267499999998542,20.570191100006923,6
+cheap_web,manual-010,Claude Mythos,False,0.0008520000000000749,20.482861900003627,6
+cheap_web,manual-011,Claude Mythos,False,0.00017025000000003843,5.271616599988192,2
+cheap_web,manual-012,Недостаточно данных.,False,0.0011592000000000269,22.906066499999724,6
+cheap_web,manual-013,Information not found.,False,0.00028949999999983156,10.096822899999097,3
+cheap_web_page,fresh-0,15 March 2026,True,0.0003543000000001406,9.718837499967776,3
+cheap_web_page,fresh-1,22 March 2026,True,0.00013214999999999755,5.916162999987137,2
+cheap_web_page,fresh-2,Iran and the United States,False,0.0006958500000000534,14.366915199963842,4
+cheap_web_page,fresh-3,Нет данных.,False,0.0006229499999999,19.58312790002674,6
+cheap_web_page,fresh-4,Changes to firearm legislation including a national firearms register.,False,0.0007205999999999602,20.7744424000266,6
+cheap_web_page,fresh-5,2,False,0.00011505000000000543,5.501909599988721,2
+cheap_web_page,fresh-6,519,False,0.00016050000000000786,5.977653700043447,2
+cheap_web_page,fresh-7,Deniz Göktaş,True,0.0002124000000001125,10.409640300029423,3
+cheap_web_page,fresh-8,Нет информации,False,0.0005338499999998358,18.255204499990214,5
+cheap_web_page,fresh-9,"New Delhi, India",True,0.0001125000000001819,5.8246274999692105,2
+cheap_web_page,fresh-10,11,False,0.00044519999999992343,16.907113799999934,6
+cheap_web_page,fresh-11,Information not available.,False,0.00029189999999990057,13.556596899987198,4
+cheap_web_page,fresh-12,Data not available.,False,0.00030810000000003335,8.48426759999711,3
+cheap_web_page,fresh-13,Unable to provide the information.,False,0.0001939500000001093,5.991419600031804,2
+cheap_web_page,fresh-14,No information available.,False,0.0009740999999998667,20.621034800016787,6
+cheap_web_page,fresh-15,Oleksandr Syrskyi,True,0.00030465000000012843,8.562022100028116,3
+cheap_web_page,fresh-16,Montreal Victoire,True,0.00015434999999985877,6.084717199963052,2
+cheap_web_page,fresh-17,Информация недоступна.,False,0.0009814500000000503,17.918142099981196,6
+cheap_web_page,fresh-18,July 2026,False,0.0006163500000000433,15.432836099993438,5
+cheap_web_page,fresh-19,Нет информации о перезабрендинге.,False,0.00031154999999993827,7.89120820001699,3
+cheap_web_page,fresh-20,single-elimination tournament format,True,0.00013605000000005418,5.4394051999552175,2
+cheap_web_page,fresh-21,нет информации.,False,0.000768300000000055,19.566148600017186,6
+cheap_web_page,fresh-22,Clara and the Below,True,0.00023609999999996134,8.257522700005211,3
+cheap_web_page,fresh-23,Неизвестно.,False,0.0010459499999999622,19.11211110005388,6
+cheap_web_page,fresh-24,Засуха,False,0.00022334999999995553,8.872461300052237,3
+cheap_web_page,fresh-25,Нет информации о декларации 26 февраля 2026 года.,False,0.001031250000000039,19.30291930004023,6
+cheap_web_page,fresh-26,Information unavailable.,False,0.0005257499999999915,16.809808399993926,5
+cheap_web_page,fresh-27,Маркус Хинтерхэузер,False,0.0008719500000000657,19.83468020003056,6
+cheap_web_page,fresh-28,6,False,0.0001562999999999981,5.901964899967425,2
+cheap_web_page,fresh-29,46,False,0.0001394999999999591,5.8168854000396095,2
+cheap_web_page,fresh-30,Ankara,True,0.00025290000000000035,9.258731400012039,3
+cheap_web_page,fresh-31,Ädilet party; Oljas Bektenov as Prime Minister.,False,0.00037994999999990675,9.301857499987818,3
+cheap_web_page,fresh-32,Information not available.,False,0.0002556000000000225,8.670590399997309,3
+cheap_web_page,fresh-33,Недоступно.,False,0.0010306500000001328,19.649397299974225,6
+cheap_web_page,fresh-34,6.3,True,0.00018689999999987883,9.354125100013334,3
+cheap_web_page,fresh-35,Информация недоступна.,False,0.001066950000000011,21.35812839999562,6
+cheap_web_page,fresh-36,142,False,0.00014880000000006,5.500275200000033,2
+cheap_web_page,fresh-37,Нет данных.,False,0.000758700000000001,19.905064100050367,6
+cheap_web_page,fresh-38,Chief Minister of Kerala,True,0.0001447500000000268,5.649839299963787,2
+cheap_web_page,fresh-39,"Adamuz, Córdoba, Spain",False,0.0001550999999999636,5.806900999974459,2
+cheap_web_page,fresh-40,Lieutenant General Vladimir Alekseyev,True,0.0002230500000000024,8.785074900020845,3
+cheap_web_page,fresh-41,Информация недоступна.,False,0.0008641499999999525,19.912415199971292,6
+cheap_web_page,fresh-42,Открытие состоялось 28 марта 2026 года.,False,0.0009216000000000779,18.026373800006695,6
+cheap_web_page,fresh-43,Zohran Mamdani,True,0.00013874999999985427,5.443248399998993,2
+cheap_web_page,fresh-44,Неизвестно,False,0.0006577500000000125,19.594443499983754,6
+cheap_web_page,fresh-45,Неизвестно.,False,0.000502950000000002,20.53510030003963,6
+cheap_web_page,fresh-46,5,False,0.00013214999999999755,5.335987799975555,2
+cheap_web_page,fresh-47,Minister of Education,False,0.00015900000000002024,5.7807307000039145,2
+cheap_web_page,fresh-48,Неизвестно.,False,0.0008566500000000143,19.86220420000609,6
+cheap_web_page,fresh-49,Life imprisonment,True,0.0002860500000001487,8.327456000028178,3
+cheap_web_page,fresh-50,Информация недоступна.,False,0.0007047000000000025,18.76149320002878,6
+cheap_web_page,fresh-51,Bruno Foucher,True,0.0002102999999999966,9.456580400001258,3
+cheap_web_page,fresh-52,5.1,False,0.0004912499999998321,15.927788899978623,5
+cheap_web_page,fresh-53,Tonya McBride Robles,True,0.00022845000000004667,8.511988799960818,3
+cheap_web_page,fresh-54,80,True,0.00013664999999996041,5.273189999978058,2
+cheap_web_page,fresh-55,2,False,0.00011804999999998067,5.533072300022468,2
+cheap_web_page,fresh-56,Информация недоступна.,False,0.0007134000000001972,14.672559100028593,5
+cheap_web_page,fresh-57,Неизвестно,False,0.0007790999999999215,21.417919799976517,6
+cheap_web_page,fresh-58,Неизвестно.,False,0.0010810500000000278,22.34780539997155,6
+cheap_web_page,fresh-59,Инея Нойгус,False,0.0010927499999999757,18.859123300004285,6
+cheap_web_page,fresh-60,Нет информации.,False,0.0007985999999999827,21.276961800002027,6
+cheap_web_page,fresh-61,14,False,0.00011444999999987715,5.884075300011318,2
+cheap_web_page,fresh-62,No information available.,False,0.00019470000000021415,9.08517789997859,3
+cheap_web_page,fresh-63,Information not found.,False,0.00028319999999992795,13.143259300035425,4
+cheap_web_page,fresh-64,Информация недоступна.,False,0.0009316500000000616,18.831613900023513,6
+cheap_web_page,fresh-65,No information found.,False,0.0003716999999998638,13.50918689998798,4
+cheap_web_page,fresh-66,Неизвестно,False,0.0007869000000000348,19.57986479997635,6
+cheap_web_page,fresh-67,Мааян Лихт,False,0.0007591499999999307,19.552082200010773,6
+cheap_web_page,fresh-68,Mark Carney,True,0.0002218499999999679,9.943697999988217,3
+cheap_web_page,fresh-69,"Leipzig, Germany",True,0.00013290000000010238,5.957255000015721,2
+cheap_web_page,fresh-70,"European Sleeper night train service between Paris, Brussels, and Berlin.",True,0.00021884999999999266,8.595846999960486,3
+cheap_web_page,fresh-71,Nikita Solovyovat,True,0.0001528500000000932,5.582096999976784,2
+cheap_web_page,fresh-72,Dharmendra Pradhan,True,0.00016694999999988802,10.217807899985928,2
+cheap_web_page,fresh-73,Нет данных,False,0.00028604999999992664,13.98712780000642,4
+cheap_web_page,fresh-74,Даниэль Ортека,False,0.000141600000000075,5.232232199981809,2
+cheap_web_page,fresh-75,"Chester, England.",False,0.001031250000000039,21.638504900038242,6
+cheap_web_page,fresh-76,7 years,False,0.00038760000000004347,10.226013000006787,3
+cheap_web_page,fresh-77,Carlos Vila Nova won re-election.,True,0.00045359999999994294,14.829124499985483,5
+cheap_web_page,fresh-78,На текущий момент данные недоступны.,False,0.0011181000000000108,18.285689899988938,6
+cheap_web_page,fresh-79,3,False,0.00022889999999997634,8.64654479996534,3
+cheap_web_page,fresh-80,"The Supreme Court of India stayed the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026.",False,0.0003276000000000945,9.92866989999311,3
+cheap_web_page,fresh-81,Неизвестно.,False,0.0008461499999998789,19.350687899976037,6
+cheap_web_page,fresh-82,28,False,0.00018044999999999867,8.01053170004161,3
+cheap_web_page,fresh-83,Неподтвержденная информация.,False,0.0006675000000000431,20.51171140000224,6
+cheap_web_page,fresh-84,неизвестно,False,0.0005890500000000909,19.869395400048234,6
+cheap_web_page,fresh-85,38.0 °C,False,0.0005983499999999697,12.109595599991735,4
+cheap_web_page,fresh-86,Information not available.,False,0.0005226000000000397,18.390799899993,5
+cheap_web_page,fresh-87,Keiko Fujimori,False,0.0003586499999999049,16.53864350001095,4
+cheap_web_page,fresh-88,нет информации,False,0.0005824500000000121,21.04070540005341,6
+cheap_web_page,fresh-89,Неизвестно.,False,0.0008005499999999,19.52384219999658,6
+cheap_web_page,fresh-90,Indiana University,False,0.0007444500000000076,14.70163839997258,5
+cheap_web_page,fresh-91,No information available,False,0.00030810000000003335,12.35854309995193,4
+cheap_web_page,fresh-92,Информация недоступна.,False,0.0004639500000001018,17.98297479999019,6
+cheap_web_page,fresh-93,Spain,True,0.00016590000000005212,5.568192400038242,2
+cheap_web_page,fresh-94,eleventh place,False,0.00011909999999981657,5.302586600009818,2
+cheap_web_page,fresh-95,India,True,0.00013950000000018115,5.573882500000764,2
+cheap_web_page,fresh-96,"Huelva, Spain",False,0.00016439999999984245,8.57296329998644,2
+cheap_web_page,fresh-97,"Citizens Bank Park, Philadelphia, Pennsylvania",True,0.00014430000000009713,5.706223200017121,2
+cheap_web_page,fresh-98,Islamabad Memorandum,True,0.0005647499999998917,13.159280300023966,4
+cheap_web_page,fresh-99,Elon Musk,True,0.0001447500000000268,6.224436099990271,2
+cheap_web_page,fresh-100,"252,756 miles (406,771 km)",True,0.00017084999999994466,6.639303999952972,2
+cheap_web_page,fresh-101,10 days (initial ceasefire),True,0.0005439000000000416,12.268077899992932,4
+cheap_web_page,fresh-102,"На данный момент у меня нет информации о том, кто был удостоен звания ""Героя Украины"" в 2025 году. Необходимо зайти на специализированные новостные или официальные источники для получения актуальной информации о наградах. final: no information available.",False,0.0005181000000000768,11.977803299960215,4
+cheap_web_page,fresh-103,Точные данные о преемнике недоступны.,False,0.0011798999999999005,21.344776900019497,6
+cheap_web_page,fresh-104,Information not available.,False,0.0003204000000001095,13.052154599979986,4
+cheap_web_page,fresh-105,Information not found.,False,0.0002218499999999679,9.087518799991813,2
+cheap_web_page,fresh-106,No information available.,False,0.0008854499999999543,17.786147899983916,5
+cheap_web_page,fresh-107,Parliamentary elections in Benin.,False,0.0002174999999999816,8.689616799994837,3
+cheap_web_page,fresh-108,нет данных.,False,0.0004801500000000125,20.353500100027304,6
+cheap_web_page,fresh-109,Антисемитские атаки в Лондоне.,False,0.00017759999999999998,6.201345000008587,2
+cheap_web_page,fresh-110,Clay Fuller,True,0.00012450000000008288,6.892621400009375,2
+cheap_web_page,fresh-111,Prime Minister,True,0.00017040000000001498,5.660516999952961,2
+cheap_web_page,fresh-112,Информация недоступна.,False,0.001046699999999845,21.608482900017407,6
+cheap_web_page,fresh-113,Information not found.,False,0.0002955000000000041,13.292042099987157,4
+cheap_web_page,fresh-114,Информация недоступна.,False,0.0009435000000002081,19.645198899961542,6
+cheap_web_page,fresh-115,66,True,0.00013139999999989271,5.150628599978518,2
+cheap_web_page,fresh-116,"Nelly Korda, Charley Hull, Gaby López.",True,0.0001454999999999096,5.481876699952409,2
+cheap_web_page,fresh-117,11-я линия Нанкинского метро.,False,0.0007821000000001188,16.034517099964432,6
+cheap_web_page,fresh-118,Неизвестно.,False,0.0008266500000000399,19.448512400034815,6
+cheap_web_page,fresh-119,Нет информации.,False,0.0007055999999998619,19.724082300032023,6
+cheap_web_page,fresh-120,"U.S. military policy ""tanker to tanker"" in response to Iranian attacks.",False,0.0003663000000000416,8.944141999993008,3
+cheap_web_page,fresh-121,информация отсутствует,False,0.0006535500000000027,17.943362799996976,6
+cheap_web_page,fresh-122,Angus Taylor,True,0.0003522000000000247,8.934514000022318,3
+cheap_web_page,fresh-123,Burkina Faso,True,0.0003338999999999981,9.710871700022835,3
+cheap_web_page,fresh-124,Нет информации.,False,0.00025724999999998666,7.399656200024765,3
+cheap_web_page,fresh-125,OpenAI,True,0.00014340000000001574,5.106583199987654,2
+cheap_web_page,fresh-126,Неизвестно.,False,0.0008398499999999753,19.28780639998149,6
+cheap_web_page,fresh-127,Папа Лев XIV,False,0.0008456999999999493,18.804487699992023,6
+cheap_web_page,fresh-128,Информация недоступна.,False,0.0009570000000000967,19.47527390002506,6
+cheap_web_page,fresh-129,Unknown country,False,0.0005527499999999907,14.803660000034142,5
+cheap_web_page,fresh-130,Information not found.,False,0.0005272499999999791,17.867588100023568,5
+cheap_web_page,fresh-131,Неизвестно.,False,0.0011227499999999502,25.639592299994547,6
+cheap_web_page,fresh-132,Информация недоступна.,False,0.0005178000000001237,20.31962109997403,6
+cheap_web_page,fresh-133,Information not found.,False,0.0006477000000000288,19.019639399950393,5
+cheap_web_page,fresh-134,Grok,True,0.0005910000000000082,16.099023999995552,5
+cheap_web_page,fresh-135,Hugging Face,True,0.0001591499999999968,5.496678900031839,2
+cheap_web_page,fresh-136,Grok image alteration feature,False,0.0003803999999998364,12.206568800029345,4
+cheap_web_page,manual-001,OpenAI Decision API.,False,0.0010738500000000428,19.783075399987865,6
+cheap_web_page,manual-002,PHP,True,0.0001372500000000887,5.0994522999972105,2
+cheap_web_page,manual-003,Информация недоступна.,False,0.000823499999999866,19.375106499996036,6
+cheap_web_page,manual-004,Информация недоступна.,False,0.0009080999999999673,19.539824500039686,6
+cheap_web_page,manual-005,Данных нет.,False,0.001003200000000204,18.495603499992285,6
+cheap_web_page,manual-006,GPT-6 Astra,False,0.0008926499999999393,18.546495499962475,6
+cheap_web_page,manual-007,Нет информации.,False,0.0008605499999998489,19.394881699990947,6
+cheap_web_page,manual-008,Claude Fable,False,0.00045165000000002564,12.29786970000714,4
+cheap_web_page,manual-009,Sonnet 6,False,0.0007858499999999768,17.665810299979057,6
+cheap_web_page,manual-010,Claude Fable,False,0.0008296500000000151,17.33837500005029,6
+cheap_web_page,manual-011,Claude Mythos 5.1,True,0.000510149999999987,12.758745300001465,4
+cheap_web_page,manual-012,Информация недоступна.,False,0.0009478500000001944,18.01690350001445,6
+cheap_web_page,manual-013,Информация недоступна.,False,0.000982949999999816,20.380714099970646,6
+mid_best,fresh-0,15 March 2026,True,0.007873000000000019,15.204645099991467,3
+mid_best,fresh-1,"March 22, 2026",False,0.00449300000000008,5.636968299979344,2
+mid_best,fresh-2,"Я не имею достоверной информации о том, кто вошел в переговоры с администрацией Трампа 13 марта 2026 года.",False,0.020251999999999715,20.077413899998646,6
+mid_best,fresh-3,"I don't have information about events in March 2026, as that is in the future. My knowledge and available tools are limited to information that already exists, and I cannot predict future agreements.
+
+If you meant a different date (such as March of a past year like 2023, 2024, or 2025), please let me know and I'd be happy to help search for information about agreements between Ukraine and Romania.",False,0.002231000000000094,1.9780312000075355,1
+mid_best,fresh-4,I do not have enough information to answer this question accurately.,False,0.015106999999999982,24.15969679999398,6
+mid_best,fresh-5,2,False,0.004142000000000312,8.65617489995202,2
+mid_best,fresh-6,519,False,0.0045569999999997,6.101413899974432,2
+mid_best,fresh-7,"Deniz Göktaş, a comedian, was imprisoned in Istanbul on July 3, 2026, for insulting President Erdoğan and religious principles.",True,0.006744000000000305,8.45841369999107,3
+mid_best,fresh-8,"I don't have access to information about events in July 2026, as that date is in the future from my knowledge cutoff. My tools search Wikipedia articles, which contain historical and current information, but not predictions or events that haven't occurred yet.
+
+If you meant a different date (for example, 29 July 2023 or another year), please clarify and I'd be happy to help you find that information.",False,0.0022359999999999047,1.9814754000399262,1
+mid_best,fresh-9,New Delhi,True,0.004105000000000025,5.1493375999853015,2
+mid_best,fresh-10,<Я не могу определить точное число погибших без доступа к надежным источникам информации>,False,0.01385499999999995,17.70110539998859,6
+mid_best,fresh-11,Helter Skelter: Arthur Jafa and Richard Prince,True,0.006745000000000001,8.89133120002225,3
+mid_best,fresh-12,"I apologize, but I'm unable to find the specific number of children receiving support for special educational needs and disabilities in the United Kingdom for January 2026. 
+
+The searches are returning general information about special needs and education rather than the specific statistics you're asking about. There are a few reasons this might be the case:
+
+1. **Future data**: January 2026 is in the future (from the perspective of when most published data is typically released), so provisional or specific January 2026 figures may not yet be publicly available.
+
+2. **Data publication timing**: UK SEND statistics are typically published by organizations like the Department for Education, but they often lag behind the actual months they cover.
+
+3. **Specific timepoint**: While annual or quarterly SEND statistics are typically available, very specific data for a particular month like January 2026 may not be disaggregated publicly.
+
+If you're looking for:
+- **Recent SEND statistics** for the UK, I could search for the latest available data
+- **Projected/forecasted numbers** for 2026, those might be available in education planning documents
+- **Statistics from a specific UK nation** (England, Scotland, Wales, Northern Ireland), which might help narrow the search
+
+Could you clarify what specific data you're looking for, or would you like me to search for the most recent available SEND statistics?",False,0.011800999999999728,27.539963399991393,4
+mid_best,fresh-13,"38.5 °C (101.3 °F) in Kitzingen on June 19, 2026",False,0.022131000000000345,20.200480500003323,6
+mid_best,fresh-14,Я не нашел информацию о смертельном инциденте в испанском городе во время празднования финала ЧМ 2026.,False,0.01970699999999992,24.01238430000376,6
+mid_best,fresh-15,Oleksandr Syrskyi,True,0.014812000000000047,18.067947500036098,5
+mid_best,fresh-16,Montreal Victoire,True,0.008242999999999778,11.957679500046652,3
+mid_best,fresh-17,"Based on my searches, I cannot find any specific information about an ISRO spacecraft launch on September 3, 2026. The search results show various ISRO missions and their timelines, but none specifically mention a launch scheduled for that date. 
+
+It's possible that:
+1. This date is a hypothetical future mission that hasn't been officially announced yet
+2. The exact date might be different or the information isn't available in the sources I can access
+3. The mission hasn't been formally announced by ISRO yet
+
+Could you provide more context about this mission, or verify if you have additional information about what was supposedly launched on that date?",False,0.01633899999999988,22.30217310000444,5
+mid_best,fresh-18,13 сентября 2016 года (или сентябрь 2016 года),False,0.01971400000000001,24.783616900036577,6
+mid_best,fresh-19,"Disney Branded Television rebranded itself as ""Disney Kids & Family"" on June 15, 2026.",True,0.010657000000000139,13.399273800023366,4
+mid_best,fresh-20,Single-elimination tournament,True,0.004605999999999888,7.293478500039782,2
+mid_best,fresh-21,"I'm unable to find information about a specific artist accusing Devon Rodriguez of presenting their work as his own in June 2026. The search results only provide biographical information about Devon Rodriguez as a visual artist known for his subway portrait work and TikTok presence, but no details about any plagiarism accusation in June 2026.
+
+This could be because:
+1. The event may be too recent or not yet widely documented
+2. The specific details may differ from what I'm searching for
+3. The information may not be available in the Wikipedia sources I have access to
+
+Could you provide additional context or check if you have any other details about this accusation?",False,0.014021000000000061,18.67592039995361,5
+mid_best,fresh-22,Unable to determine - insufficient information available,False,0.017093000000000025,29.354930999979842,6
+mid_best,fresh-23,"I appreciate your question, but I need to clarify something important: February 15, 2026 is a date in the future. As of my knowledge cutoff in April 2024, that date hasn't occurred yet, so I cannot provide information about events that haven't happened.
+
+If you're asking about a historical event in Ukraine from a past date, please provide the correct date and I'll be happy to help you find that information. Alternatively, if you meant a different year (for example, 2023, 2022, or earlier), please let me know and I can search for that information.",False,0.002435000000000187,4.492284899984952,1
+mid_best,fresh-24,A drought,True,0.004887000000000086,6.5293730000266805,2
+mid_best,fresh-25,"Pakistan's Defence Minister Khawaja Asif declared an ""open war"" between Pakistan and Afghanistan, which was fought under the codename Operation Ghazab lil-Haq.",True,0.018297999999999703,21.2041211000178,5
+mid_best,fresh-26,9,False,0.006613999999999898,9.68692429998191,3
+mid_best,fresh-27,"Я не располагаю достоверной информацией о конкретном музыканте, который был отстранён Зальцбургским фестивалем на этот период.",False,0.020899,31.46689119999064,6
+mid_best,fresh-28,6,False,0.004657000000000355,6.041891400003806,2
+mid_best,fresh-29,"46 people were killed in the train derailment near Adamuz, Spain in January 2026.",False,0.004525999999999808,5.924996999965515,2
+mid_best,fresh-30,The available sources do not specify the city where Alican Uludag was arrested in February 2026.,False,0.010372999999999966,12.609928000019863,4
+mid_best,fresh-31,"Oljas Bektenov formed the new government of Kazakhstan after the legislative election on August 23, 2026. He was reappointed as Prime Minister by President Kassym-Jomart Tokayev on August 31, 2026, and formed the Second Bektenov Government.",False,0.008112000000000119,10.470605400041677,3
+mid_best,fresh-32,"I don't have information about the Archibald Prize winner on May 8, 2026, as this date is beyond my knowledge cutoff.",False,0.00479099999999999,6.191751800011843,2
+mid_best,fresh-33,"I don't have access to current information about events in April 2026, as that date is in the future from my knowledge cutoff. My training data doesn't extend to 2026, so I cannot tell you which MP defected at that time.
+
+If you meant a different year (for example, April 2024 or an earlier period), please let me know and I can help you search for that information. Alternatively, if you're referring to a historical defection, please provide the correct year and I'll be happy to look it up for you.",False,0.0023759999999999337,2.3528231999953277,1
+mid_best,fresh-34,Информация недоступна,False,0.017313000000000134,19.258810900035314,6
+mid_best,fresh-35,"I apologize, but I'm unable to find information about someone swimming around Saint Helena island in February 2026. The search results only return general information about Saint Helena island itself, not about any specific swimming achievement in that timeframe.
+
+This could be because:
+1. This event may not have occurred yet or may be planned for the future
+2. The information may not be widely documented on Wikipedia (which is where my search tool primarily looks)
+3. The event details may be described differently than the search terms I'm using
+
+Could you provide any additional details, such as the swimmer's name or nationality, that might help me locate this information?",False,0.011481999999999992,15.663989500026219,4
+mid_best,fresh-36,142,False,0.004221999999999948,6.205819899972994,2
+mid_best,fresh-37,I cannot find verified information about this event. The search results do not contain details about a resident doctors' strike announcement for June 2026.,False,0.010171000000000152,16.716942800034303,4
+mid_best,fresh-38,Chief Minister of Kerala,True,0.0043359999999998955,5.9055657999706455,2
+mid_best,fresh-39,"I don't have access to real-time information or events that occurred on January 20, 2026, as that date is in the future from my knowledge cutoff. Additionally, my available search tools are designed to find information on Wikipedia, which primarily contains historical and well-established information rather than future events.
+
+If you're asking about a train collision that actually occurred on January 20 in a past year in Spain, please provide the specific year, and I'd be happy to help you find information about it.",False,0.0023219999999999352,2.3719477999839,1
+mid_best,fresh-40,"I don't have access to information about events in February 2026, as that is in the future. My knowledge and the tools available to me can only search for information about real historical events that have already occurred.
+
+If you're asking about a fictional event (such as from a book, movie, or game set in that time period), please let me know the source, and I may be able to help you find that information.
+
+Alternatively, if you meant to ask about a different date or a real historical event, please clarify and I'll be happy to help!",False,0.0023800000000000487,2.4721395999658853,1
+mid_best,fresh-41,Информация недоступна,False,0.01648499999999986,19.96296039997833,6
+mid_best,fresh-42,The Wikipedia article does not specify who inaugurated the Noida International Airport on 28 March 2026.,False,0.007992000000000221,9.502773400046863,3
+mid_best,fresh-43,"Zohran Mamdani was sworn in as Mayor of New York City on January 1, 2026.",True,0.0044599999999999085,12.816696399997454,2
+mid_best,fresh-44,"Я не могу найти достоверную информацию о названии суперземли с подтвержденной атмосферой, о которой было сообщено 16 июля 2026 года.",False,0.016415999999999986,20.668408500030637,6
+mid_best,fresh-45,F-16 Fighting Falcon,True,0.0066950000000001175,9.148940799990669,3
+mid_best,fresh-46,5,False,0.0044119999999998605,6.996091000037268,2
+mid_best,fresh-47,Minister of Education,False,0.004852999999999774,6.374061300011817,2
+mid_best,fresh-48,"I don't have access to real-time information or events beyond my training data (April 2024), so I cannot provide information about events that occurred on July 15, 2026, as that date is in the future relative to my knowledge cutoff.
+
+If you're asking about a recent event or have access to current news, I'd recommend checking recent news sources or official Ukrainian government statements for the most accurate and up-to-date information.
+
+Is there something else I can help you with, or did you perhaps mean a different date?",False,0.002355000000000107,2.950171999982558,1
+mid_best,fresh-49,Life imprisonment for conviction under the Unlawful Activities (Prevention) Act**,True,0.007911000000000001,14.244237899954896,3
+mid_best,fresh-50,"A fine of 802,500 lira ($18,500) was issued to Amedspor by the Turkish Football Federation on January 29, 2026, and the club's president Nahit Eren was suspended for 15 days for ""damaging the reputation of football"" by ""making ideological propaganda"" after uploading a video of a woman having her hair braided in solidarity with Kurdish compatriots.",True,0.008901999999999965,13.61691179999616,3
+mid_best,fresh-51,Bruno Foucher,True,0.006641000000000119,9.620678900042549,3
+mid_best,fresh-52,"I apologize, but I'm unable to find specific information about an earthquake in Guangxi on May 18, 2026. While I found a Wikipedia article titled ""List of earthquakes in 2026,"" the search is not returning the specific magnitude data for that date and location.
+
+It's also worth noting that May 18, 2026 is in the future (from most current perspectives), so this may be a hypothetical scenario or there may be limited information available about it. If this is a historical event you're asking about, please verify the date, or if you have additional context about this earthquake, I'd be happy to help search for more information.",False,0.012967000000000173,16.87961240002187,5
+mid_best,fresh-53,"Tonya McBride Robles was appointed as the president and chief executive officer of the Rochester Philharmonic Orchestra effective August 17, 2026.",True,0.007064999999999877,12.098038299998734,3
+mid_best,fresh-54,80,True,0.004468999999999834,6.206546899979003,2
+mid_best,fresh-55,2,False,0.004195000000000171,6.4713934999890625,2
+mid_best,fresh-56,"I don't have access to real-time data or future information. My knowledge was last updated in April 2024, so I cannot provide information about the UK inflation rate in January 2026, as that date is in the future.
+
+If you're looking for:
+- **Recent UK inflation data** (from 2024 or earlier), I can help you search for that information
+- **Current inflation rates**, you would need to check official sources like the UK Office for National Statistics (ONS)
+
+Would you like me to help you find historical UK inflation data instead?",False,0.0023849999999998595,2.4448744999826886,1
+mid_best,fresh-57,"I don't have access to real-time information or events that occurred in July 2026, as my knowledge was last updated in April 2024. I cannot search for future events or information beyond my training data.
+
+If you're asking about a current or past event that has already occurred, please provide me with more context or clarification, and I'd be happy to help you find the information using the available tools.",False,0.002226999999999979,3.784316300007049,1
+mid_best,fresh-58,BYD,False,0.018915000000000237,23.549101000011433,6
+mid_best,fresh-59,"Carson Ting of Canada, Minerva GM of Mexico, and Hank Willis Thomas of the United States",True,0.011305999999999816,13.623761900002137,4
+mid_best,fresh-60,"I don't have access to real-time data or future information (June 2026 is in the future), and the tools available to me only search Wikipedia articles, which contain historical and general information rather than current arrest statistics.
+
+Additionally, even for historical periods, specific arrest statistics for particular cities and dates are typically found in:
+- Official government crime statistics databases
+- Police department reports
+- News archives
+- Legal/judicial databases
+
+These sources are not accessible through Wikipedia searches.
+
+If you're looking for:
+1. **Historical arrest data** from a past date, I could try searching for general crime statistics about Ankara
+2. **General information** about law enforcement in Ankara
+3. **A different question** about a verifiable historical fact
+
+Please let me know how I can help!",False,0.0026239999999999597,2.9603932999889366,1
+mid_best,fresh-61,14,False,0.004154000000000213,5.975562700012233,2
+mid_best,fresh-62,"I don't have access to current information about events in March 2026, as that date is in the future from my knowledge cutoff. Additionally, my available tools search Wikipedia articles, which typically don't contain real-time legal or news information about specific recent cases.
+
+Could you provide more context about this case? For example:
+- The name of the Syrian national
+- The country where the trial is taking place
+- The type of crime or charges involved
+- Any other relevant details
+
+With more information, I might be able to help you find the answer through available sources.",False,0.0023839999999997197,2.5089681000099517,1
+mid_best,fresh-63,2,False,0.0066150000000000375,8.992746700008865,3
+mid_best,fresh-64,Mayor of Lutsk,True,0.009192000000000089,14.156346600037068,4
+mid_best,fresh-65,"16 people were killed in the bus accident in São José da Tapera, Alagoas, in February 2026.",True,0.0071470000000002365,9.554706900031306,3
+mid_best,fresh-66,"At least 6 people were reportedly trapped after the hotel collapse in Anuppur, Madhya Pradesh on April 4, 2026.",False,0.014279999999999848,19.615798000013456,5
+mid_best,fresh-67,Liam Nassereddine,True,0.009338999999999764,13.577157499967143,4
+mid_best,fresh-68,"I don't have access to real-time information or events from March 2026, as that date is in the future from my knowledge cutoff. I cannot search for future events that haven't occurred yet.
+
+If you're asking about a Canadian Prime Minister who made an announcement with India at a different time, or if you'd like information about current or past Canadian Prime Ministers and their dealings with India, please let me know the correct date or timeframe, and I'll be happy to help!",False,0.002299000000000273,2.295003400009591,1
+mid_best,fresh-69,"Leipzig, Germany",True,0.004201000000000121,5.641118500032462,2
+mid_best,fresh-70,"European Sleeper begins a night train service between Paris, Brussels, and Berlin on March 26, 2026.",True,0.0068589999999999485,9.631045099988114,3
+mid_best,fresh-71,"I don't have access to current information about events in January 2026, as that date is in the future from my knowledge cutoff. Additionally, even if such an event had occurred, I would not be able to provide the name of a minor involved in a crime, as this raises serious ethical and legal concerns regarding the privacy and protection of juveniles.
+
+If you're asking about a real incident that has been publicly reported, I'd recommend checking current news sources or official law enforcement reports for verified information, keeping in mind that responsible journalism typically does not publicize the names of minors involved in crimes.
+
+Is there something else I can help you with?",False,0.002473999999999865,2.308162900037132,1
+mid_best,fresh-72,Dharmendra Pradhan,True,0.004957999999999796,6.447049499955028,2
+mid_best,fresh-73,Hak Ja Han Moon,False,0.013187000000000282,20.535278099996503,5
+mid_best,fresh-74,Daniel Ortega,True,0.005009999999999959,9.39683949999744,2
+mid_best,fresh-75,"I'm unable to find information about two senior doctors being arrested over suspicious deaths of newborn infants specifically on January 14, 2026. The search results are returning information about Lucy Letby's case from 2023, which involved a neonatal nurse rather than doctors, and occurred at the Countess of Chester Hospital.
+
+It's possible that:
+1. This is a very recent event that may not yet be widely indexed
+2. The specific date or details might be slightly different
+3. This incident may not have significant Wikipedia coverage yet
+
+Could you provide any additional details, such as:
+- The location or hospital name
+- The country where this occurred
+- The names of the doctors involved
+- Any other context about the incident
+
+This would help me search more effectively for the information you're looking for.",False,0.008709999999999773,11.699002999986988,3
+mid_best,fresh-76,Life sentence for insurrection and other crimes,False,0.016836000000000073,17.30335030000424,5
+mid_best,fresh-77,"Carlos Vila Nova won re-election as president of São Tomé and Príncipe on July 19, 2026, securing 55.88% of the vote in the first round as an independent candidate with MLSTP–PSD support, while opposition candidate Nito Abreu received 41.46%, with a record low turnout of 41%.",True,0.004618000000000233,5.9251615999965,2
+mid_best,fresh-78,"I cannot provide specific data from May 2026 as that is a future date. Based on current clinical evidence, metastatic pancreatic cancer has a median overall survival of less than one year, typically in the range of 8-12 months depending on treatment regimen.",False,0.01213099999999967,15.311756899987813,4
+mid_best,fresh-79,I don't have enough information to provide the specific number of games won.,False,0.016120000000000356,23.054476500023156,6
+mid_best,fresh-80,"UGC Equity Regulations, 2026",True,0.007606999999999697,13.475236000027508,3
+mid_best,fresh-81,"I don't have access to future data. July 2026 hasn't occurred yet, so there is no passenger traffic data available for Istanbul Airport in that month.
+
+If you're looking for:
+- **Historical passenger traffic data** for Istanbul Airport (such as July 2023, 2024, or 2025), I can try to find that information
+- **Projections or forecasts** for Istanbul Airport's future traffic
+- **Current passenger traffic statistics** for Istanbul Airport
+
+Please let me know which of these would be helpful, and I can search for that information.",False,0.0023980000000003443,3.513115400040988,1
+mid_best,fresh-82,28,False,0.004548999999999914,6.0736707000178285,2
+mid_best,fresh-83,"An improvised explosive device was attempted to be ignited near a Bank of America building in Paris, France in March 2026.",True,0.006659999999999666,9.888112399959937,3
+mid_best,fresh-84,8,False,0.009470000000000312,16.390010499977507,4
+mid_best,fresh-85,"The search results indicate UK temperatures peaked at 38.0 °C in June 2026, but do not confirm this was specifically recorded in Lingwood, Norfolk.",False,0.019241000000000064,22.90308229997754,6
+mid_best,fresh-86,"I don't have access to current or future information, as my knowledge was last updated in April 2024. January 2026 is in the future from my training data cutoff date.
+
+However, I can search for information if you're asking about a historical surplus report (for example, if you meant January 2024 or an earlier year). Could you clarify:
+
+1. Did you mean a different year (such as 2024, 2023, or earlier)?
+2. Are you asking about a specific type of surplus (fiscal, trade, budget, etc.)?
+3. Is this information you've encountered that you'd like me to help verify?
+
+If you provide these clarifications, I'd be happy to help search for the information using available tools.",False,0.002602999999999689,2.4583217999897897,1
+mid_best,fresh-87,Unable to determine from available search results,False,0.019486000000000114,24.37154089997057,6
+mid_best,fresh-88,"I don't have access to information about events in March 2026, as that is in the future. My knowledge cutoff is from April 2024, and I can only search for historical events that have already occurred and been documented in Wikipedia.
+
+If you're asking about a boat capsizing in Japan that happened in the past, please let me know the specific month and year, and I'll be happy to search for information about it.",False,0.0022400000000000198,2.2493088000337593,1
+mid_best,fresh-89,"I apologize, but I'm unable to find specific information about who announced stepping down as general manager of the Canada men's national ice hockey team in March 2026. The search results are not returning details about this particular event. This may be because:
+
+1. The information might not be widely covered in Wikipedia sources available to my search function
+2. The event might be very recent and not yet fully indexed
+3. The specific details might require more current sources
+
+Could you provide any additional context or the name you're looking for? That would help me verify the information.",False,0.013948000000000071,21.565075399994384,5
+mid_best,fresh-90,"<ответ>На основе найденных результатов я не смог найти точную информацию об учреждении, которое опубликовало данные о 2700 смертях от волн жара в Великобритании в 2026 году. Хотя UK Health Security Agency упоминается в контексте тепловых оповещений, это не подтверждено как источник этой конкретной цифры.>",False,0.019810000000000105,24.916528299974743,6
+mid_best,fresh-91,"I apologize, but I'm unable to find specific information about the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026 through my search tools. The search results are only returning general information about 2026 in India without the specific details you're asking about.
+
+This could be because:
+1. This may be a very recent or future event that hasn't been widely documented yet
+2. The scheme name or exact date may need clarification
+3. The information may not be readily available in Wikipedia sources that my tools can access
+
+Could you provide any additional context or alternative names for this scheme? This would help me search more effectively.",False,0.009912999999999617,15.244111700041685,4
+mid_best,fresh-92,"Я не смог найти конкретную информацию о том, кто вернется на должность губернатора Синалоа 21 августа 2026 года.",False,0.017598000000000003,22.325435300008394,6
+mid_best,fresh-93,Spain,True,0.004929000000000183,6.445166199991945,2
+mid_best,fresh-94,I don't have access to France's exact finishing position for Monroe at Eurovision 2026.,False,0.021224999999999827,24.368214100017212,6
+mid_best,fresh-95,"India won the 2026 Men's T20 World Cup in cricket, defeating New Zealand by 96 runs in the final.",True,0.004515000000000047,5.9708400000236,2
+mid_best,fresh-96,Istanbul,True,0.004201000000000121,6.0094110000063665,2
+mid_best,fresh-97,"The 2026 Major League Baseball All-Star Game was held at Citizens Bank Park in Philadelphia, Pennsylvania.",True,0.004382000000000108,6.634964100026991,2
+mid_best,fresh-98,"I don't have access to information about events in June 2026, as that date is in the future. My knowledge was trained on information available up to April 2024, and I cannot access real-time information or predict future events.
+
+If you're asking about a historical document signed between US and Iranian leaders, please let me know the correct time period, and I'd be happy to help you find that information.",False,0.0022299999999999542,2.131313299993053,1
+mid_best,fresh-99,Elon Musk,True,0.0046599999999998865,6.836076400009915,2
+mid_best,fresh-100,"252,756 miles (406,771 km)",True,0.012779000000000096,15.495221299992409,4
+mid_best,fresh-101,"The initial ceasefire duration was 10 days, with multiple subsequent extensions of 3 weeks and 45 days.",True,0.005310000000000148,8.598869400040712,2
+mid_best,fresh-102,I don't have access to the specific individuals recognized as Hero of Ukraine in 2025 in my available sources.,False,0.011657000000000028,15.555646699969657,4
+mid_best,fresh-103,"Информация недостаточна для точного ответа. Известно, что Keiko Fujimori стала президентом Перу и была приведена к присяге 28 июля 2026 года, но неясно, кто заменил Хосе Хери сразу после его отстранения 17 февраля 2026 года.",False,0.020681999999999867,25.21636199997738,6
+mid_best,fresh-104,Я не располагаю достаточной информацией для ответа на этот вопрос.,False,0.014704999999999746,20.138884900021367,6
+mid_best,fresh-105,"Air China and China Southern Airlines increased fuel surcharges by ¥60–120 (US$8.70–17.5) on domestic flights on April 2, 2026, in response to rising oil prices linked to the 2026 Iran war.",True,0.017139000000000237,25.18710760003887,5
+mid_best,fresh-106,Unable to determine - insufficient information available,False,0.016967000000000176,21.90296049998142,6
+mid_best,fresh-107,"The 2026 Beninese parliamentary election occurs on January 11, 2026, in which the pro-Talon Progressive Union Renewal and Republican Bloc parties win all 109 seats in the National Assembly.",True,0.006899999999999906,9.144294300000183,3
+mid_best,fresh-108,"I don't have access to information about events that haven't happened yet. June 2026 is in the future, so I cannot find records of shark attacks or other events that will occur at that time.
+
+If you're asking about a fictional event (such as from a movie, book, TV show, or game), please let me know the specific title and I can help you find that information. Or if you meant to ask about a past shark attack incident, please provide the year and I'll be happy to search for that information.",False,0.002339000000000091,2.105345399992075,1
+mid_best,fresh-109,"Antisemitic attacks, primarily involving arson and stabbings directed at synagogues, community charities, and residential buildings",False,0.011404999999999887,16.700936099980026,4
+mid_best,fresh-110,"I don't have access to information about future events, including who will win the special election in Georgia in 2026. My tools can search for historical and current information from Wikipedia, but they cannot predict future outcomes.
+
+If you're interested in learning about:
+- Past Georgia special elections
+- The current political landscape in Georgia
+- How special elections work in Georgia
+- Historical context about Georgia's electoral system
+
+I'd be happy to help with any of those topics. Could you clarify what information about Georgia elections you'd like to know?",False,0.0023399999999997867,2.341360300022643,1
+mid_best,fresh-111,Prime Minister of the United Kingdom,True,0.004729000000000205,6.197116199997254,2
+mid_best,fresh-112,SMILE (Solar wind Magnetosphere Ionosphere Link Explorer),True,0.01517400000000002,20.86368379998021,5
+mid_best,fresh-113,850,True,0.006609000000000087,9.017096999974456,3
+mid_best,fresh-114,"I'm unable to find information about a specific facility that opened in St. John's, Newfoundland and Labrador on January 12, 2026 using the available search tools. The search results are returning general information about St. John's but not the specific opening event you're asking about.
+
+Could you provide any additional context, such as:
+- The name of the facility or organization involved?
+- The type of facility (hospital, recreation center, arena, etc.)?
+- Any other details about the announcement?
+
+This would help me locate the specific information you're looking for.",False,0.015140999999999849,22.07001039996976,5
+mid_best,fresh-115,25,False,0.010851999999999862,13.9234522000188,4
+mid_best,fresh-116,Nelly Korda won the 2026 U.S. Women's Open held in California (at Riviera Country Club in Pacific Palisades).,True,0.0043960000000002886,6.937744900002144,2
+mid_best,fresh-117,Unable to determine from available sources,False,0.01864399999999966,18.049554600031115,6
+mid_best,fresh-118,"I cannot find information about a specific art theft in Italy in August 2026 in available sources. If you have additional details about this incident, I'd be happy to search again.",False,0.0077670000000003014,11.276659900031518,3
+mid_best,fresh-119,"I don't have access to real-time information or events from May 2026, as that date is in the future from my knowledge cutoff. Additionally, my available tools are designed to search Wikipedia for historical and current information, not to predict future events.
+
+If you're looking for information about cities that have resumed or are planning to resume passenger services around a specific time period, I'd be happy to help if you:
+
+1. Clarify if you meant a different year (such as May 2024, 2025, or earlier)
+2. Provide more context about what type of passenger services you're interested in (public transportation, airline services, railway services, etc.)
+3. Specify which region or country you're asking about
+
+Please provide these details, and I'll do my best to help you find the information!",False,0.002654999999999852,2.637830700026825,1
+mid_best,fresh-120,"I don't have information about events in January 2026, as that is in the future from my knowledge cutoff date. My training data only extends to April 2024, so I cannot access information about events that haven't occurred yet.
+
+If you're asking about a historical event from a different time period, please provide the correct date and I'd be happy to help you find that information.",False,0.0021960000000000868,1.8734175999998115,1
+mid_best,fresh-121,"Based on the search results, I found that there is a Wikipedia article about ""List of earthquakes in 2026."" However, the detailed information about specific earthquakes in Yamanashi Prefecture in June 2026 is not appearing in the search results. The article indicates it lists earthquakes of magnitude 6 or above, and those with significant damage/casualties.
+
+Unfortunately, I cannot retrieve the specific magnitude of the earthquake that struck Yamanashi Prefecture in June 2026 from the available information. Could you provide me with any additional details, or would you like me to search for something else?",False,0.0127489999999999,18.28074859996559,5
+mid_best,fresh-122,Angus Taylor,True,0.012096999999999802,15.278922399971634,4
+mid_best,fresh-123,"The search result provided information about Syria, but it doesn't contain information about June 2026. The search result appears to be about historical relations, not future events or events from June 2026.
+
+I should note that I don't have access to information about events from June 2026, as my knowledge was last updated in April 2024, before that date. Additionally, June 2026 is in the future from my training cutoff date.
+
+Could you clarify if you meant a different date, or if this is a hypothetical question? If this is a real event that occurred, it may have happened after my knowledge cutoff date, and I wouldn't have access to that information.",False,0.004970000000000141,7.961477699980605,2
+mid_best,fresh-124,I cannot find information about a nightclub fire in Germany in March 2026. The searches do not return any confirmed incidents matching these criteria.,False,0.011217000000000255,15.506511199986562,4
+mid_best,fresh-125,"I don't have information about events from September 2026, as that date is in the future from my knowledge cutoff. I can only search for information that exists in current Wikipedia articles and web sources.
+
+Additionally, I should note that my training data has a cutoff date, and I cannot access real-time information or events that haven't occurred yet or are beyond my knowledge base.
+
+Could you clarify if you meant a different date, or provide more context about this event? If this is referring to a historical incident that occurred before my knowledge cutoff, I'd be happy to help search for that information.",False,0.0024239999999999817,2.481813400052488,1
+mid_best,fresh-126,"I apologize, but I'm unable to find specific information about a Google announcement of its Gemini Enterprise Agent Platform in Las Vegas in April 2026 through my available search tools. The search results are returning general information about Google Cloud Platform rather than details about specific future conferences or announcements.
+
+This could be because:
+1. The event is in the future (April 2026) and may not yet have detailed coverage available
+2. The announcement may not have been widely publicized yet
+3. The specific details might require access to sources beyond what my current tools can retrieve
+
+Could you provide any additional details about the conference name or check if you have other sources about this announcement?",False,0.01099199999999989,16.705549700011034,4
+mid_best,fresh-127,"Microsoft CEO Satya Nadella urged consumers to stop calling AI ""slop"" in January 2026.",True,0.00672499999999987,9.22527930000797,3
+mid_best,fresh-128,"""Pacing the Frontier""",True,0.01508699999999985,17.335653899994213,5
+mid_best,fresh-129,"Информация недостаточна для точного ответа. В полученных результатах не указано, какая конкретно страна заблокировала Grok 10 января 2026 года.",False,0.017759999999999998,23.911886099958792,6
+mid_best,fresh-130,Информация о конкретном названии института недоступна на основе полученных результатов поиска.,False,0.016393000000000324,22.623656799958553,6
+mid_best,fresh-131,"Я не могу подтвердить, кто именно из флоридских генеральных прокуроров объявил о судебном иске против OpenAI и Сэма Альтмана 1 июня 2026 года, на основе доступной информации.",False,0.01848200000000011,22.415966200002003,6
+mid_best,fresh-132,"I don't have access to information about events that occurred on April 21, 2026, as that date is in the future (from my knowledge cutoff in April 2024). I cannot search for or retrieve information about events that haven't happened yet.
+
+If you're asking about a hypothetical scenario, historical event, or if you meant a different date, please clarify and I'll be happy to help!",False,0.0022299999999999542,2.056315800000448,1
+mid_best,fresh-133,"Character.AI and Google agreed to settle lawsuits concerning alleged chatbot harms to minors on January 7, 2026.",True,0.006848999999999883,9.7827505999594,3
+mid_best,fresh-134,"I apologize, but I'm unable to find specific information about which AI chatbot the Philippines' Department of Information and Communications Technology blocked on January 16, 2026, over deepfake concerns. My search tools are returning general information about deepfakes and AI, but not this specific recent event. 
+
+It's possible that:
+1. This event may be very recent or may not yet be widely documented in the sources available to me
+2. The specific details (date, department, or AI chatbot name) might differ slightly from what was provided
+3. This might be a very recent news event that hasn't yet been fully indexed
+
+Could you provide any additional details that might help me locate this information, or do you know which chatbot it was?",False,0.014726000000000017,20.92284590000054,5
+mid_best,fresh-135,Hugging Face,True,0.008157999999999888,12.175002300005872,3
+mid_best,fresh-136,<Недостаточно информации для точного ответа о конкретном ограничении от 9 января 2026 года>,False,0.017965999999999926,22.318375699978787,6
+mid_best,manual-001,"Я не располагаю информацией о конкретном API OpenAI, ставшем общедоступным 22 октября 2026 года.",False,0.01693300000000031,28.026141899987124,6
+mid_best,manual-002,PHP,True,0.004568999999999601,5.882222299987916,2
+mid_best,manual-003,"I cannot find information about an OpenAI academic access plan for life sciences researchers on October 15, 2026. This date is in the future, so this announcement has not yet occurred or may not exist.",False,0.005015000000000214,6.278142499970272,2
+mid_best,manual-004,"I appreciate your question, but I need to point out that I cannot find information about GPT-6 or events occurring on October 7, 2026, for several reasons:
+
+1. **Future date**: October 7, 2026 is in the future. I don't have access to information about events that haven't happened yet.
+
+2. **GPT-6 doesn't exist yet**: As of my knowledge cutoff in April 2024, GPT-6 has not been released. The current versions are in the GPT-4 family.
+
+3. **My tools' limitations**: The search tools available to me are designed to find information from existing Wikipedia articles, which wouldn't contain information about future events or unreleased products.
+
+If you're asking about a hypothetical scenario or if you meant a different date or product release, please let me know and I'd be happy to help with accurate information!",False,0.00278299999999998,2.5932499999762513,1
+mid_best,manual-005,GPT-6.1 Sol,True,0.010546000000000166,15.161011999996845,4
+mid_best,manual-006,"I don't have access to information about events in September 2026, as my knowledge was last updated in April 2024. I cannot search for future events or make predictions about announcements that haven't occurred yet.
+
+If you're asking about a hypothetical scenario or testing my responses, I should clarify that I can only provide information about events that have already happened and are documented. 
+
+Could you clarify:
+1. Are you asking about an actual announcement that has already been made?
+2. Or are you asking about a future or fictional scenario?
+
+If you're referring to real AI models that OpenAI has announced, I'd be happy to help if you can provide more details about the timeframe or model names.",False,0.0025559999999997807,2.3351622999762185,1
+mid_best,manual-007,"I apologize, but I'm unable to find specific information about which OpenAI full-duplex voice model was launched on the API on September 10, 2026. The search results I'm getting don't contain details about this specific launch date and model.
+
+It's possible that:
+1. This is a future date and this event hasn't occurred yet (or the information isn't yet available in Wikipedia)
+2. The specific date or model name might need to be verified
+3. The information might not be available in the sources I can access
+
+Could you provide any additional context or details about this model that might help me find the information?",False,0.013438000000000283,19.69360769999912,5
+mid_best,manual-008,"I don't have access to information about events in October 2026, as my knowledge was last updated in April 2024. Additionally, I cannot search for future events using the available tools.
+
+However, I can note that this date is in the future relative to my training data, so I cannot provide accurate information about which Anthropic model was released on that date.
+
+If you're looking for information about current Anthropic models, I'd be happy to help with that instead. Or if you meant a different date, please let me know and I can try to assist!",False,0.002394999999999925,2.2054117000079714,1
+mid_best,manual-009,"I apologize, but I'm unable to find information about a specific Anthropic Sonnet model released on September 28, 2026 as a faster successor to Sonnet 5 in the available sources. The search results mention that Anthropic develops Claude models in multiple tiers including Sonnet, and that in 2026 they released Claude Mythos and Claude Fable models, but they don't contain specific details about a Sonnet model release on that exact date.
+
+The information you're asking about may be:
+1. From a future date beyond what is currently documented in Wikipedia
+2. Too recent to be indexed in the available sources
+3. Described with different terminology than what I'm searching for
+
+Could you provide any additional context or details about this model that might help me locate the information?",False,0.014978999999999854,21.4146017000312,4
+mid_best,manual-010,"I don't have access to information about future events or models launching after my knowledge cutoff date in April 2024. September 22, 2026 is in the future relative to my training data, so I cannot provide accurate information about what Anthropic model may have launched on that date.
+
+If you're asking about a model that has already launched and you're testing my knowledge, I'd recommend checking Anthropic's official website or recent announcements for the most current and accurate information about their model releases.",False,0.0023320000000000007,10.923374800011516,1
+mid_best,manual-011,"I don't have access to information about events in September 2026, as that date is in the future from my knowledge cutoff (April 2024). I cannot search for information about future events or products that haven't been released yet.
+
+If you're asking about an actual announcement or product release, please verify the date or provide more context about what you're referring to.",False,0.002184000000000186,2.062013700022362,1
+mid_best,manual-012,Claude Mythos,False,0.01873199999999997,22.941644199949224,6
+mid_best,manual-013,"I don't have access to information about events in October 2026, as that is in the future from my knowledge cutoff date (April 2024). I cannot search for future events that haven't occurred yet.
+
+If you're asking about a training program that Anthropic has already announced or launched before April 2024, please let me know and I can try to help you find that information.",False,0.0022079999999999878,2.2528365000034682,1

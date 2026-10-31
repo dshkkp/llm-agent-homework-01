@@ -1,0 +1,25 @@
+{
+  "config": "strong_no_tools",
+  "task_id": "fresh-106",
+  "question": "What opens at São Paulo/Guarulhos International Airport in February 2026?",
+  "answer": "I need to find information about what opens at São Paulo/Guarulhos International Airport in February 2026.\n\nBased on my knowledge, GRU Airport (São Paulo/Guarulhos International Airport) has been developing a new terminal. Terminal 3 (T3) at GRU Airport is scheduled to open in February 2026.\n\nFINAL: Terminal 3 (T3)",
+  "steps": 1,
+  "cost": 0.001958999999999822,
+  "seconds": 3.5327369999722578,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "What opens at São Paulo/Guarulhos International Airport in February 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I need to find information about what opens at São Paulo/Guarulhos International Airport in February 2026.\n\nBased on my knowledge, GRU Airport (São Paulo/Guarulhos International Airport) has been developing a new terminal. Terminal 3 (T3) at GRU Airport is scheduled to open in February 2026.\n\nFINAL: Terminal 3 (T3)",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

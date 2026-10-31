@@ -1,0 +1,69 @@
+{
+  "config": "cheap_web",
+  "task_id": "manual-013",
+  "question": "What training program did Anthropic launch in October 2026 to develop enterprise AI engineers?",
+  "answer": "Я не смог найти информацию о программе обучения, которую Anthropic запустила в октябре 2026 года для разработки инженеров в области искусственного интеллекта. Возможно, она еще не была задокументирована в доступных источниках. \n\nFINAL: Information not found.",
+  "steps": 3,
+  "cost": 0.00028949999999983156,
+  "seconds": 10.096822899999097,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "What training program did Anthropic launch in October 2026 to develop enterprise AI engineers?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_ZJGB08Z1sQMxnPMRChTtdshs",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Anthropic training program enterprise AI engineers October 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ZJGB08Z1sQMxnPMRChTtdshs",
+      "content": "[Claude (AI)] Claude is a series of large language models (LLMs) developed by American software company Anthropic. Claude was released as an AI-based chatbot in March 2023. It is also used in AI-assisted software development. Anthropic sells Claude-based agentic tools including Claude Code, a terminal coding agent, and Claude Cowork, a similar tool for non-programmers. Claude is trained using a constitution, a technique developed by Anthropic to improve ethical and legal compliance. Since Claude 3, each generation has typically been released in three sizes, named Haiku (the least capable), Sonnet, and Opus (the most capable). In 2026, a more capable model named Claude Mythos was released to a handful of companies and organizations; this was followed by the release of Claude Fable, a version of Mythos with stricter safeguards, to the general public. In February 2026, the United States Department of Defense designated Anthropic a \"supply chain risk\" and federal agencies were ordered to phase out Claude after the company refused to remove contractual prohibitions on using Claude for mass domestic surveillance and fully autonomous weapons. A federal judge blocked the designation in March 2026 and permanently set it aside in August 2026 as unconstitutional retaliation."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_hAJBIpZGwYukomOULJ84xODS",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Anthropic October 2026 training program enterprise AI engineers\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_hAJBIpZGwYukomOULJ84xODS",
+      "content": "[Claude (AI)] Claude is a series of large language models (LLMs) developed by American software company Anthropic. Claude was released as an AI-based chatbot in March 2023. It is also used in AI-assisted software development. Anthropic sells Claude-based agentic tools including Claude Code, a terminal coding agent, and Claude Cowork, a similar tool for non-programmers. Claude is trained using a constitution, a technique developed by Anthropic to improve ethical and legal compliance. Since Claude 3, each generation has typically been released in three sizes, named Haiku (the least capable), Sonnet, and Opus (the most capable). In 2026, a more capable model named Claude Mythos was released to a handful of companies and organizations; this was followed by the release of Claude Fable, a version of Mythos with stricter safeguards, to the general public. In February 2026, the United States Department of Defense designated Anthropic a \"supply chain risk\" and federal agencies were ordered to phase out Claude after the company refused to remove contractual prohibitions on using Claude for mass domestic surveillance and fully autonomous weapons. A federal judge blocked the designation in March 2026 and permanently set it aside in August 2026 as unconstitutional retaliation."
+    },
+    {
+      "role": "assistant",
+      "content": "Я не смог найти информацию о программе обучения, которую Anthropic запустила в октябре 2026 года для разработки инженеров в области искусственного интеллекта. Возможно, она еще не была задокументирована в доступных источниках. \n\nFINAL: Information not found.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

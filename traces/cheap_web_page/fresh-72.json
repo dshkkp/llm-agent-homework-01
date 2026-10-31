@@ -1,0 +1,47 @@
+{
+  "config": "cheap_web_page",
+  "task_id": "fresh-72",
+  "question": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?",
+  "answer": "The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is Dharmendra Pradhan. \n\nFINAL: Dharmendra Pradhan",
+  "steps": 2,
+  "cost": 0.00016694999999988802,
+  "seconds": 10.217807899985928,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_w0II76br0v7kgvzsmHufRXsW",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Education Minister resign demand Cockroach Janta Party India 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_w0II76br0v7kgvzsmHufRXsW",
+      "content": "[Cockroach Janta Party] The Cockroach Janta Party (CJP; lit. 'Cockroach People's Party') is a youth-based political movement founded on 16 May 2026 by political communications strategist and activist Abhijeet Dipke. The organization conducts protests and volunteer driven activities to voice concerns of the youth, and also provides legal aid to activists and protests. The mock political party gained viral popularity online, soon after its creation in response to remarks by the Chief Justice of India, Surya Kant referring to certain unemployed youth in media and activism as \"cockroaches\" and \"parasites of society\" although he later claimed to be referring to those having 'fraudulent degrees'. The movement's name parodies India's ruling Bharatiya Janata Party (BJP). Its five-point manifesto addresses parliamentary conduct, voter disenfranchisement, women's political representation and media centralization. Beginning in June, the CJP led nationwide protests over medical entrance examination irregularities, which ended after talks with the government and Union Education Minister Dharmendra Pradhan's resignation on 25 July 2026. It later joined protests against Chief Election Commissioner, Gyanesh Kumar over alleged electoral-roll irregularities. It is not registered as a political party with the Election Commission of India (ECI)."
+    },
+    {
+      "role": "assistant",
+      "content": "The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is Dharmendra Pradhan. \n\nFINAL: Dharmendra Pradhan",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

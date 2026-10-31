@@ -1,0 +1,47 @@
+{
+  "config": "cheap_web_page",
+  "task_id": "fresh-95",
+  "question": "Which country won the 2026 Men's T20 World Cup in cricket?",
+  "answer": "FINAL: India",
+  "steps": 2,
+  "cost": 0.00013950000000018115,
+  "seconds": 5.573882500000764,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Which country won the 2026 Men's T20 World Cup in cricket?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_aptAdJZnlWB03hUZ8xgWaO2R",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"2026 Men's T20 World Cup winner\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_aptAdJZnlWB03hUZ8xgWaO2R",
+      "content": "[2026 Men's T20 World Cup] The 2026 ICC Men's T20 World Cup was the tenth edition of the ICC Men's T20 World Cup, co-hosted by Board of Control for Cricket in India and Sri Lanka Cricket from 7 February to 8 March 2026. Sri Lanka had previously hosted the competition in 2012 and India in 2016. A total of twenty teams competed in 55 matches across five venues in India and three in Sri Lanka. More than 1.3 million spectators attended the matches across the two nations. Twenty teams competed in the tournament, which included the teams from the two hosts, six of the top seven teams from the previous edition, the four highest-ranked teams in the ICC Men's T20I Team Rankings not already qualified, and eight other teams determined through a series of regional qualifiers. Italy qualified for the Men's T20 World Cup for the first time. India were the defending champions, having won the 2024 edition. They defended their title by defeating New Zealand by 96 runs in the final, becoming the first team to win two consecutive T20 World Cups, the first country to win the title at home, and the first team to win the tournament three times."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: India",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

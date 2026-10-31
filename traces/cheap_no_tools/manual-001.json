@@ -1,0 +1,25 @@
+{
+  "config": "cheap_no_tools",
+  "task_id": "manual-001",
+  "question": "Which OpenAI API for fast, structured decisions became generally available on October 22, 2026?",
+  "answer": "I'm unable to provide information about events or updates that occur after my last training cutoff in October 2023. Therefore, I do not have knowledge of any OpenAI API that became generally available on October 22, 2026. \n\nFINAL: No information available.",
+  "steps": 1,
+  "cost": 5.414999999997505e-05,
+  "seconds": 2.4173663000110537,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Which OpenAI API for fast, structured decisions became generally available on October 22, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm unable to provide information about events or updates that occur after my last training cutoff in October 2023. Therefore, I do not have knowledge of any OpenAI API that became generally available on October 22, 2026. \n\nFINAL: No information available.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

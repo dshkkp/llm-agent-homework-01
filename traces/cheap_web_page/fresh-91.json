@@ -1,0 +1,91 @@
+{
+  "config": "cheap_web_page",
+  "task_id": "fresh-91",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "Не удалось найти информацию о сумме, выделенной Шивраджем Сингхом Чоуханом для схемы VB-G RAM-G в июле 2026 года. Пожалуйста, уточните детали или попробуйте другой запрос. \n\nFINAL: No information available",
+  "steps": 4,
+  "cost": 0.00030810000000003335,
+  "seconds": 12.35854309995193,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_GBemh0c5g6zVsywBApQlQsrh",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 amount released\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_GBemh0c5g6zVsywBApQlQsrh",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_zRLCUX3UlaEKnEvyGAxXgeFj",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 funding\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_zRLCUX3UlaEKnEvyGAxXgeFj",
+      "content": "No data"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_tjx9IjAzWo99krrRp0RQflz5",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_tjx9IjAzWo99krrRp0RQflz5",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India."
+    },
+    {
+      "role": "assistant",
+      "content": "Не удалось найти информацию о сумме, выделенной Шивраджем Сингхом Чоуханом для схемы VB-G RAM-G в июле 2026 года. Пожалуйста, уточните детали или попробуйте другой запрос. \n\nFINAL: No information available",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

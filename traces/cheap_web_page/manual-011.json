@@ -1,0 +1,91 @@
+{
+  "config": "cheap_web_page",
+  "task_id": "manual-011",
+  "question": "Which restricted-access Anthropic model was introduced alongside Claude Fable 5.1 in September 2026?",
+  "answer": "The restricted-access model introduced alongside Claude Fable 5.1 in September 2026 is Claude Mythos 5.1. \n\nFINAL: Claude Mythos 5.1",
+  "steps": 4,
+  "cost": 0.000510149999999987,
+  "seconds": 12.758745300001465,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Which restricted-access Anthropic model was introduced alongside Claude Fable 5.1 in September 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_m47NcXu9A1j4RM3gkXsDUNhJ",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Anthropic Claude Fable 5.1 restricted-access model September 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_m47NcXu9A1j4RM3gkXsDUNhJ",
+      "content": "[Anthropic] Anthropic, PBC is an American artificial intelligence (AI) public benefit corporation headquartered in San Francisco, California. Its flagship product is Claude, a series of proprietary large language models (LLMs). In January 2021, with the goal of promoting AI safety, Anthropic was founded by former members of OpenAI, including siblings Daniela Amodei and Dario Amodei, who are president and CEO, respectively. The company is privately held but plans an initial public offering in November 2026. Valued at $965 billion in a May 2026 Series H capital raise, Anthropic is the world's most valuable AI pure play, rivaled by OpenAI. Anthropic develops the LLM Claude in four tiers: Fable, Opus, Sonnet, and Haiku. Claude is accessible via an online chatbot, an API, and Anthropic's agent harnesses: Claude Code, Cowork, Design, and Science. Its model class Claude Mythos, a less restricted version of Fable, is available only to approved US organizations with a cybersecurity and life sciences focus. Anthropic's Project Panama, internally described as an \"effort to destructively scan all the books in the world\", provides training data for Claude. Before Project Panama, Anthropic downloaded pirated books and was sued, settling in 2025 a copyright infringement lawsuit from authors for $1.5 billion. Anthropic conducts LLM research including on mechanistic interpretability, safety, alignment, and societal impact. Notable researchers working at Anthropic include Andrej Karpathy, John M. Jumper, Jan Leike, Chris Olah, Amanda Askell, and Levent Alpöge. Anthropic partners with cloud providers including Palantir. From 2024, Claude was used by the US Department of Defense (DoD) and the Intelligence Community. In 2026, Claude was used in the Iran war and the US intervention in Venezuela. In February, the DoD demanded the use of Claude for all lawful purposes, but Anthropic refused to drop restrictions against mass domestic surveillance and fully autonomous weapons. The dispute le"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_FFAtWGCbXKf84njbHjcqJcrW",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"Claude\",\"keywords\":\"restricted-access model September 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_FFAtWGCbXKf84njbHjcqJcrW",
+      "content": "Keywords not found"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_kgMyximeFxSOuiwv6wxEHCO4",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Claude Fable 5.1 restricted-access model September 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_kgMyximeFxSOuiwv6wxEHCO4",
+      "content": "[Claude Mythos] Claude Mythos is a series of large language models developed by Anthropic. It is the most complicated set of models in the Claude product line. The first model in the series was Claude Mythos Preview. Anthropic did not release the model to the public, citing the model's ability to find software vulnerabilities. Starting in April 2026 under the name Project Glasswing, some companies were given access to Claude Mythos to scan for security vulnerabilities in critical software. The public had mixed reactions to the announcement of Claude Mythos Preview. In June 2026, Anthropic publicly released Claude Fable 5, a \"Mythos-class\" model made available for general use with a set of safeguards, alongside Claude Mythos 5, a restricted-access version of the same underlying model with those safeguards lifted in some areas. According to Anthropic, the two models are identical apart from their safeguards; when Fable 5's classifiers flag a request relating to cybersecurity, biology and chemistry, or model distillation, the response is instead handled by the less capable Claude Opus. Mythos 5.1 and Fable 5.1 were released in September 2026. According to industry estimates reported by the Financial Times, Mythos has approximately 8 trillion parameters, while Fable 5 has approximately 5 trillion parameters."
+    },
+    {
+      "role": "assistant",
+      "content": "The restricted-access model introduced alongside Claude Fable 5.1 in September 2026 is Claude Mythos 5.1. \n\nFINAL: Claude Mythos 5.1",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

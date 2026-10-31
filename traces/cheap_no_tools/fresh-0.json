@@ -1,0 +1,25 @@
+{
+  "config": "cheap_no_tools",
+  "task_id": "fresh-0",
+  "question": "On what date did Ukraine boycott the closing ceremony of the 2026 Winter Paralympics?",
+  "answer": "Ukraine announced it would boycott the closing ceremony of the 2026 Winter Paralympics on January 18, 2026. \n\nFINAL: January 18, 2026",
+  "steps": 1,
+  "cost": 4.304999999993342e-05,
+  "seconds": 2.6694429999915883,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "On what date did Ukraine boycott the closing ceremony of the 2026 Winter Paralympics?"
+    },
+    {
+      "role": "assistant",
+      "content": "Ukraine announced it would boycott the closing ceremony of the 2026 Winter Paralympics on January 18, 2026. \n\nFINAL: January 18, 2026",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

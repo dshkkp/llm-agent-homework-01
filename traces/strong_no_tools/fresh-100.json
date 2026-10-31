@@ -1,0 +1,25 @@
+{
+  "config": "strong_no_tools",
+  "task_id": "fresh-100",
+  "question": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?",
+  "answer": "I need to check whether the Artemis II mission had actually taken place by April 6, 2026, and what distance was reached.\n\nMy knowledge cutoff is early 2025, and Artemis II was planned but had not yet flown as of that time. I don't have verified information about events that occurred in April 2026.\n\nFINAL: I don't have verified information about Artemis II's flight in April 2026, as this is beyond my knowledge cutoff.",
+  "steps": 1,
+  "cost": 0.0022739999999998872,
+  "seconds": 3.896724200050812,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I need to check whether the Artemis II mission had actually taken place by April 6, 2026, and what distance was reached.\n\nMy knowledge cutoff is early 2025, and Artemis II was planned but had not yet flown as of that time. I don't have verified information about events that occurred in April 2026.\n\nFINAL: I don't have verified information about Artemis II's flight in April 2026, as this is beyond my knowledge cutoff.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "config": "cheap_web",
+  "task_id": "fresh-60",
+  "question": "What is the number of people arrested in Ankara in June 2026?",
+  "answer": "I couldn't find specific information about the number of people arrested in Ankara in June 2026. \n\nFINAL: Information not available.",
+  "steps": 2,
+  "cost": 0.00011775000000002755,
+  "seconds": 5.517781100003049,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "What is the number of people arrested in Ankara in June 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Bof2xCzDALceUROrQmpKJopm",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"number of people arrested in Ankara June 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Bof2xCzDALceUROrQmpKJopm",
+      "content": "[2026 Onikişubat school shooting] On 15 April 2026, a school shooting occurred at the Ayser Çalık Secondary School in the Onikişubat district of Kahramanmaraş Province, Turkey. İsa Aras Mersinli, a 13-year-old student enrolled at the school, shot and killed 12 people and injured 13 more. Mersinli died from hypovolemic shock after sustaining a fatal knife injury while attempting to flee the scene. The shooting occurred the day after a school shooting in the Siverek district of Şanlıurfa Province. It is the deadliest school shooting in the history of Turkey."
+    },
+    {
+      "role": "assistant",
+      "content": "I couldn't find specific information about the number of people arrested in Ankara in June 2026. \n\nFINAL: Information not available.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

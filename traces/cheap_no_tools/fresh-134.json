@@ -1,0 +1,25 @@
+{
+  "config": "cheap_no_tools",
+  "task_id": "fresh-134",
+  "question": "Which AI chatbot did the Philippines' Department of Information and Communications Technology block on January 16, 2026 over deepfake concerns?",
+  "answer": "The AI chatbot blocked by the Philippines' Department of Information and Communications Technology on January 16, 2026, over deepfake concerns was ChatGPT. \n\nFINAL: ChatGPT",
+  "steps": 1,
+  "cost": 4.4249999999967926e-05,
+  "seconds": 1.6597544000251219,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Which AI chatbot did the Philippines' Department of Information and Communications Technology block on January 16, 2026 over deepfake concerns?"
+    },
+    {
+      "role": "assistant",
+      "content": "The AI chatbot blocked by the Philippines' Department of Information and Communications Technology on January 16, 2026, over deepfake concerns was ChatGPT. \n\nFINAL: ChatGPT",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

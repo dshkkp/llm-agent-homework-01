@@ -1,0 +1,69 @@
+{
+  "config": "cheap_web_page",
+  "task_id": "fresh-49",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "answer": "Asiya Andrabi was sentenced to life imprisonment on March 25, 2026, for her conviction under the Unlawful Activities (Prevention) Act. \n\nFINAL: Life imprisonment",
+  "steps": 3,
+  "cost": 0.0002860500000001487,
+  "seconds": 8.327456000028178,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_tFLgbFT0VyHNjYQMZEZzC3Gd",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Asiya Andrabi sentence March 24, 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_tFLgbFT0VyHNjYQMZEZzC3Gd",
+      "content": "[Asiya Andrabi] Asiya Andrabi is a Kashmiri separatist and founding leader of Dukhtaran-e-Millat. This group is part of the separatist organisation All Parties Hurriyat Conference in the Kashmir Valley. Government of India has declared it as a banned organization. The organisation claims that it aims for the freedom of Kashmir from India. Until her arrest, she was one of the most important women separatists in the valley. She married Ashiq Hussain Faktoo (a founding member of the Hizbul Mujahideen) in 1990. Her husband has been in jail since 1992, convicted of murder. Asiya Andrabi had a major role in starting and backing-up various protests in the Kashmir Valley. She is best known for supporting Masarat Alam in the 2010 Kashmir unrest across Kashmir by using her village network of Dukhtaran-e-Millat operatives for rally support. She hoisted the Pakistan flag and sang the Pakistani national anthem in Kashmir on 25 March 2015. Later on, she was booked for that. On 12 September 2015, she slaughtered a cow and released a video in a bid to defy the ban on sale of beef in Jammu and Kashmir. On 6 July 2018, Asiya was taken into custody by the National Investigation Agency (NIA)."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_clSLr0aZnfgp1DU0QBlt4otF",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"Asiya Andrabi\",\"keywords\":\"sentence March 24, 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_clSLr0aZnfgp1DU0QBlt4otF",
+      "content": "On 25 March 2026 she got life imprisonment for her conviction in Unlawful Activities (Prevention) Act by a court in Delhi following her arrest in 2018 by National Investigation Agency."
+    },
+    {
+      "role": "assistant",
+      "content": "Asiya Andrabi was sentenced to life imprisonment on March 25, 2026, for her conviction under the Unlawful Activities (Prevention) Act. \n\nFINAL: Life imprisonment",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

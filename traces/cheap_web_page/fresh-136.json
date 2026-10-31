@@ -1,0 +1,91 @@
+{
+  "config": "cheap_web_page",
+  "task_id": "fresh-136",
+  "question": "Which xAI feature was restricted to paid users on January 9, 2026, following concerns about deepfake imagery?",
+  "answer": "The feature of Grok that was restricted to paid users on January 9, 2026, due to concerns about deepfake imagery, allowed users to alter images of individuals in sexually suggestive contexts. \n\nFINAL: Grok image alteration feature",
+  "steps": 4,
+  "cost": 0.0003803999999998364,
+  "seconds": 12.206568800029345,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Which xAI feature was restricted to paid users on January 9, 2026, following concerns about deepfake imagery?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_VkgHrYxIU0U6WAGh3Es0o86F",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"xAI feature restricted to paid users January 9 2026 deepfake imagery\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_VkgHrYxIU0U6WAGh3Es0o86F",
+      "content": "[Grok sexual deepfake scandal] Since 2025, SpaceXAI's chatbot, Grok, has allowed users to alter images of individuals, including minors, to show them in bikinis or transparent clothing, or in sexually suggestive contexts, without the consent of the person being portrayed. The majority of these prompts were targeted at women and girls. Users were able to generate such images by providing a photo and a request to Grok, such as \"put her in a bikini\", to which the chatbot would publicly reply with a generated image. The scandal drew significant criticism from lawmakers across the world, and there were calls for bans on X, as well as legal crackdowns on X and xAI for, amongst other reasons, the facilitation of sexual abuse, revenge porn and child pornography."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_RaZHT5EJYJe3eBLCxJF2wIBN",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"Grok\",\"keywords\":\"restricted feature paid users deepfake imagery\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_RaZHT5EJYJe3eBLCxJF2wIBN",
+      "content": "Keywords not found"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_yoMe6CwhVAAY808tQPklaLl0",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Grok xAI feature paid users deepfake imagery January 9 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_yoMe6CwhVAAY808tQPklaLl0",
+      "content": "[Grok sexual deepfake scandal] Since 2025, SpaceXAI's chatbot, Grok, has allowed users to alter images of individuals, including minors, to show them in bikinis or transparent clothing, or in sexually suggestive contexts, without the consent of the person being portrayed. The majority of these prompts were targeted at women and girls. Users were able to generate such images by providing a photo and a request to Grok, such as \"put her in a bikini\", to which the chatbot would publicly reply with a generated image. The scandal drew significant criticism from lawmakers across the world, and there were calls for bans on X, as well as legal crackdowns on X and xAI for, amongst other reasons, the facilitation of sexual abuse, revenge porn and child pornography."
+    },
+    {
+      "role": "assistant",
+      "content": "The feature of Grok that was restricted to paid users on January 9, 2026, due to concerns about deepfake imagery, allowed users to alter images of individuals in sexually suggestive contexts. \n\nFINAL: Grok image alteration feature",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

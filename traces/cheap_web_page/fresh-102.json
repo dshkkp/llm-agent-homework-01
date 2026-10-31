@@ -1,0 +1,91 @@
+{
+  "config": "cheap_web_page",
+  "task_id": "fresh-102",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "На данный момент у меня нет информации о том, кто был удостоен звания \"Героя Украины\" в 2025 году. Необходимо зайти на специализированные новостные или официальные источники для получения актуальной информации о наградах. final: no information available.",
+  "steps": 4,
+  "cost": 0.0005181000000000768,
+  "seconds": 11.977803299960215,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Who was recognized as Hero of Ukraine in 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_RcDapW1PNvUszm9Dj0GIN2bs",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Hero of Ukraine 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_RcDapW1PNvUszm9Dj0GIN2bs",
+      "content": "[Hero of Ukraine] A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of October 31, 2026, the total number of recipients was no less than 1,376 (of which decrees awarding 1,327 individuals were published, and for at least 49 individuals, the decrees were not made public). The decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr. OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr. OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_jp4M7vo9cO7RMeSfiOHSuzy3",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"Hero of Ukraine\",\"keywords\":\"2025 recipient\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_jp4M7vo9cO7RMeSfiOHSuzy3",
+      "content": "The decoration was created in 1998 by President Leonid Kuchma. As of October 31, 2026, the total number of recipients was no less than 1,376 (of which decrees awarding 1,327 individuals were published, and for at least 49 individuals, the decrees were not made public).\nThe decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr.  OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr.  OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\").\nThe origin of the \"Hero of Ukraine\" award can be traced to the Hero of the Soviet Union (established 16 April 1934) and the Hero of Socialist Labor (27 December 1938), the highest decorations established in the Soviet Union, of which Ukraine was a constituent republic. Most of the recipients of the former title received it for heroic military action (with Soviet cosmonauts being a notable exceptio\nThe title Hero of Ukraine was created on 23 August 1998 with Edict #944/98 by President Leonid Kuchma. Similar in structure to the titles issued by the Soviet Union, the title is awarded in two distinctions: \"The Order of the Gold Star\" and \"The Order of the State\". Unlike the Soviet awards, Ukrainian law allows a person to receive a title in each distinction only once, although the person may rec\nBelow the ribbon of the Order of the Gold Star, the golden suspension device contains a small engraving of the trident representing the Ukrainian Coat of Arms. The medallion is shaped like a five-pointed star 35 mm (1.4 in) wide from one point to the other, and is set within a wreath of oak leaves. Two smaller five-pointed stars are engraved within the larger star. In contrast, the medallion for t\n== Recipients =="
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_xzoduoEqTwoKzH0KvYTqFyQZ",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Hero of Ukraine 2025 recipient names\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_xzoduoEqTwoKzH0KvYTqFyQZ",
+      "content": "[Hero of Ukraine] A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of October 31, 2026, the total number of recipients was no less than 1,376 (of which decrees awarding 1,327 individuals were published, and for at least 49 individuals, the decrees were not made public). The decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr. OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr. OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017."
+    },
+    {
+      "role": "assistant",
+      "content": "На данный момент у меня нет информации о том, кто был удостоен звания \"Героя Украины\" в 2025 году. Необходимо зайти на специализированные новостные или официальные источники для получения актуальной информации о наградах. final: no information available.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

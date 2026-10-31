@@ -1,0 +1,113 @@
+{
+  "config": "cheap_web",
+  "task_id": "fresh-10",
+  "question": "How many people were killed in the February 18 explosion at a fireworks store in China?",
+  "answer": "I couldn't find specific information about the casualties from the February 18 explosion at a fireworks store in China. It appears that current data on this incident is limited or not easily accessible. \n\nFINAL: Information not available.",
+  "steps": 5,
+  "cost": 0.0003356999999999388,
+  "seconds": 17.949473700020462,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "How many people were killed in the February 18 explosion at a fireworks store in China?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_6WBqSTA7bJyRTEgTCij1mS9I",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"February 18 explosion fireworks store China\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_6WBqSTA7bJyRTEgTCij1mS9I",
+      "content": "[List of fireworks accidents and incidents] This is a list of fireworks accidents and incidents, including pyrotechnics fire and explosion. The list is sortable by casualties and date."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_51EMdgtf50AZ4Za3vZ0jALwA",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"February 18 2023 explosion fireworks store China casualties\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_51EMdgtf50AZ4Za3vZ0jALwA",
+      "content": "[List of fireworks accidents and incidents] This is a list of fireworks accidents and incidents, including pyrotechnics fire and explosion. The list is sortable by casualties and date."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_rbRmsSv0eb4GxkQm1pJcuh5l",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"China February 18 2023 fireworks store explosion news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_rbRmsSv0eb4GxkQm1pJcuh5l",
+      "content": "[List of fireworks accidents and incidents] This is a list of fireworks accidents and incidents, including pyrotechnics fire and explosion. The list is sortable by casualties and date."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_OPzA4m0WILOu8tRGd5CLNUm0",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"February 18 2023 fireworks explosion China deaths\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_OPzA4m0WILOu8tRGd5CLNUm0",
+      "content": "[List of fireworks accidents and incidents] This is a list of fireworks accidents and incidents, including pyrotechnics fire and explosion. The list is sortable by casualties and date."
+    },
+    {
+      "role": "assistant",
+      "content": "I couldn't find specific information about the casualties from the February 18 explosion at a fireworks store in China. It appears that current data on this incident is limited or not easily accessible. \n\nFINAL: Information not available.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

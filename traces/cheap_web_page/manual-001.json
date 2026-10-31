@@ -1,0 +1,117 @@
+{
+  "config": "cheap_web_page",
+  "task_id": "manual-001",
+  "question": "Which OpenAI API for fast, structured decisions became generally available on October 22, 2026?",
+  "answer": "API для быстрых структурированных решений, который стал общедоступным 22 октября 2026 года, называется OpenAI Decision API. \n\nFINAL: OpenAI Decision API.",
+  "steps": 6,
+  "cost": 0.0010738500000000428,
+  "seconds": 19.783075399987865,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Which OpenAI API for fast, structured decisions became generally available on October 22, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_DdlKJA7nV8lYUPN7MHzDAKFM",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI API October 22, 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_DdlKJA7nV8lYUPN7MHzDAKFM",
+      "content": "[OpenAI] OpenAI is an American artificial intelligence (AI) public benefit corporation (PBC) headquartered in San Francisco, California. It develops \"frontier\" generative AI models, particularly its generative pre-trained transformer (GPT) series of large language models. Its release of ChatGPT in November 2022 accelerated an AI boom, leading to widespread use of generative AI; as of September 2026, ChatGPT is the fifth-most-visited website globally. OpenAI also releases the GPT Image models and Codex, an AI coding agent. In March 2026, OpenAI closed a funding round with a post-money valuation of US$852 billion, making it one of the most valuable AI pure play companies in the world, rivalled only by Anthropic. OpenAI was founded in 2015 as a nonprofit, with Elon Musk and Sam Altman as co-chairs; Musk resigned in 2018. A for-profit subsidiary was created in 2019, and a 2025 restructuring converted the subsidiary into OpenAI Group PBC, that is 26% owned by the nonprofit OpenAI Foundation. Microsoft has invested over $13 billion into OpenAI. OpenAI partners with the US government via the Stargate Project infrastructure venture, and with the Department of Defense, Los Alamos National Laboratory, and arms company Anduril Industries. Former OpenAI personnel have founded competing AI companies including Anthropic, Safe Superintelligence Inc., SpaceXAI, and Thinking Machines Lab. OpenAI has faced multiple lawsuits for alleged deaths linked to its chatbots and copyright infringement against authors and media companies. Several US states have sued, alleging harm to children, claiming it coaches self-harm and encourages delusions. In November 2023, OpenAI's board removed Sam Altman as CEO, citing a lack of confidence, but reinstated him five days later after a board reconstruction. In 2024, roughly half of OpenAI's AI safety researchers left the company, often citing the company's deprioritization of safety. In mid-2026, hundreds of OpenAI agents gained unintended internet acc"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_i5j3ZX7MjySGyvyuToXRvX4A",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"OpenAI\",\"keywords\":\"API October 22, 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_i5j3ZX7MjySGyvyuToXRvX4A",
+      "content": "In October 2024, OpenAI completed a $6.6 billion capital raise with a $157 billion valuation including investments from Microsoft, Nvidia, and SoftBank.\nIn February 2026, OpenAI raised $110 billion at a $730 billion valuation, led by Amazon ($50 billion), SoftBank ($30 billion), and Nvidia ($30 billion), surpassing the prior round as the largest private technology fundraise in history. The round was extended to $120 billion in March 2026. In April 2026, the company announced that it closed a funding round of $122 billion in committed capital at a \nIn August 2026, OpenAI announced that it had terminated API access for the AI coding tool Cursor following Cursor's acquisition by SpaceX.\nIn May 2026, OpenAI launched the OpenAI Deployment Company (DeployCo), a majority-owned and controlled company providing deployment and integration services for OpenAI's artificial intelligence systems. DeployCo received more than $4 billion in initial investment from a group led by TPG, with Advent International, Bain Capital and Brookfield as co-lead founding partners. Axios reported that the in\nOn March 24, 2026, OpenAI announced that they would discontinue the Sora app, as well as developer access to the API for the Sora model.\nOn October 30, 2026, OpenAI announced that it would support a shared signal in the robots.txt files of websites, allowing publishers and websites operators to communicate their preferences regarding the use of their content for foundational generative AI training across multiple participating providers. The initiative is based on work within the Internet Engineering Task Force's (IETF) AI preferen"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_j3PHNSp7fb1TWu11FPOuX4Kc",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI API for fast structured decisions October 22 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_j3PHNSp7fb1TWu11FPOuX4Kc",
+      "content": "[OpenAI] OpenAI is an American artificial intelligence (AI) public benefit corporation (PBC) headquartered in San Francisco, California. It develops \"frontier\" generative AI models, particularly its generative pre-trained transformer (GPT) series of large language models. Its release of ChatGPT in November 2022 accelerated an AI boom, leading to widespread use of generative AI; as of September 2026, ChatGPT is the fifth-most-visited website globally. OpenAI also releases the GPT Image models and Codex, an AI coding agent. In March 2026, OpenAI closed a funding round with a post-money valuation of US$852 billion, making it one of the most valuable AI pure play companies in the world, rivalled only by Anthropic. OpenAI was founded in 2015 as a nonprofit, with Elon Musk and Sam Altman as co-chairs; Musk resigned in 2018. A for-profit subsidiary was created in 2019, and a 2025 restructuring converted the subsidiary into OpenAI Group PBC, that is 26% owned by the nonprofit OpenAI Foundation. Microsoft has invested over $13 billion into OpenAI. OpenAI partners with the US government via the Stargate Project infrastructure venture, and with the Department of Defense, Los Alamos National Laboratory, and arms company Anduril Industries. Former OpenAI personnel have founded competing AI companies including Anthropic, Safe Superintelligence Inc., SpaceXAI, and Thinking Machines Lab. OpenAI has faced multiple lawsuits for alleged deaths linked to its chatbots and copyright infringement against authors and media companies. Several US states have sued, alleging harm to children, claiming it coaches self-harm and encourages delusions. In November 2023, OpenAI's board removed Sam Altman as CEO, citing a lack of confidence, but reinstated him five days later after a board reconstruction. In 2024, roughly half of OpenAI's AI safety researchers left the company, often citing the company's deprioritization of safety. In mid-2026, hundreds of OpenAI agents gained unintended internet acc"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_JzhW75tWDweIaHwIDtEAZQMS",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"OpenAI\",\"keywords\":\"API 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_JzhW75tWDweIaHwIDtEAZQMS",
+      "content": "Its release of ChatGPT in November 2022 accelerated an AI boom, leading to widespread use of generative AI; as of September 2026, ChatGPT is the fifth-most-visited website globally. OpenAI also releases the GPT Image models and Codex, an AI coding agent. In March 2026, OpenAI closed a funding round with a post-money valuation of US$852 billion, making it one of the most valuable AI pure play compa\nIn November 2023, OpenAI's board removed Sam Altman as CEO, citing a lack of confidence, but reinstated him five days later after a board reconstruction. In 2024, roughly half of OpenAI's AI safety researchers left the company, often citing the company's deprioritization of safety. In mid-2026, hundreds of OpenAI agents gained unintended internet access and conducted autonomous hacks, including ag\nIn December 2015, OpenAI was founded as the nonprofit organization OpenAI, Inc., by Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, and Wojciech Zaremba, with Musk and Altman as the co-chairs. A total of $1 billion in capital was pledged by Musk, Altman, Greg Brockman, Reid Hoffman, Jessica Livingston\nAll members of the OpenAI Group PBC board of directors are to be appointed by the OpenAI Foundation, which can remove them at any time. As of April 2026, all but one of the board members of the OpenAI Foundation were also board members of OpenAI Group PBC. In April 2026, co-founder Musk revised his lawsuit against OpenAI and Altman to seek the reversal of OpenAI's corporate restructuring. Musk los\nAltman stated that an initial public offering (IPO) was the most likely path forward. On June 8, 2026, OpenAI confirmed it filed for an IPO with the US Securities and Exchange Commission (SEC), but stated \"it could be a while because there are things we want to do that are likely easier as a private company.\" Altman confirmed in September that the IPO was delayed until 2027.\nIn April 2026, the"
+    },
+    {
+      "role": "user",
+      "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>. Ответ после FINAL: должен быть на языке исходного вопроса."
+    },
+    {
+      "role": "assistant",
+      "content": "API для быстрых структурированных решений, который стал общедоступным 22 октября 2026 года, называется OpenAI Decision API. \n\nFINAL: OpenAI Decision API.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

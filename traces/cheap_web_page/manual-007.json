@@ -1,0 +1,117 @@
+{
+  "config": "cheap_web_page",
+  "task_id": "manual-007",
+  "question": "Which OpenAI full-duplex voice model was launched in the API on September 10, 2026?",
+  "answer": "На данный момент нет информации о запуске полной дуплексной голосовой модели OpenAI в API 10 сентября 2026 года. Так как инструменты для поиска больше недоступны, нельзя предоставить точную информацию. \n\nFINAL: Нет информации.",
+  "steps": 6,
+  "cost": 0.0008605499999998489,
+  "seconds": 19.394881699990947,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Which OpenAI full-duplex voice model was launched in the API on September 10, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_NHNADvXGVENfXmaFXF2VDLa4",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI full-duplex voice model launched in API on September 10, 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_NHNADvXGVENfXmaFXF2VDLa4",
+      "content": "[Google I/O] Google I/O is an annual developer conference held by Google since 2007 in Mountain View, California. \"I/O\" stands for input/output. The annual conference started as \"Google Developer Day\" a year prior."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_HRsJAvPpuyVvQWl6X0FC23b4",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI voice model September 10, 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_HRsJAvPpuyVvQWl6X0FC23b4",
+      "content": "[OpenAI] OpenAI is an American artificial intelligence (AI) public benefit corporation (PBC) headquartered in San Francisco, California. It develops \"frontier\" generative AI models, particularly its generative pre-trained transformer (GPT) series of large language models. Its release of ChatGPT in November 2022 accelerated an AI boom, leading to widespread use of generative AI; as of September 2026, ChatGPT is the fifth-most-visited website globally. OpenAI also releases the GPT Image models and Codex, an AI coding agent. In March 2026, OpenAI closed a funding round with a post-money valuation of US$852 billion, making it one of the most valuable AI pure play companies in the world, rivalled only by Anthropic. OpenAI was founded in 2015 as a nonprofit, with Elon Musk and Sam Altman as co-chairs; Musk resigned in 2018. A for-profit subsidiary was created in 2019, and a 2025 restructuring converted the subsidiary into OpenAI Group PBC, that is 26% owned by the nonprofit OpenAI Foundation. Microsoft has invested over $13 billion into OpenAI. OpenAI partners with the US government via the Stargate Project infrastructure venture, and with the Department of Defense, Los Alamos National Laboratory, and arms company Anduril Industries. Former OpenAI personnel have founded competing AI companies including Anthropic, Safe Superintelligence Inc., SpaceXAI, and Thinking Machines Lab. OpenAI has faced multiple lawsuits for alleged deaths linked to its chatbots and copyright infringement against authors and media companies. Several US states have sued, alleging harm to children, claiming it coaches self-harm and encourages delusions. In November 2023, OpenAI's board removed Sam Altman as CEO, citing a lack of confidence, but reinstated him five days later after a board reconstruction. In 2024, roughly half of OpenAI's AI safety researchers left the company, often citing the company's deprioritization of safety. In mid-2026, hundreds of OpenAI agents gained unintended internet acc"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_b6ZHTeKiSIm49XEtAa5V14ra",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI launches new full-duplex voice model\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_b6ZHTeKiSIm49XEtAa5V14ra",
+      "content": "[Google I/O] Google I/O is an annual developer conference held by Google since 2007 in Mountain View, California. \"I/O\" stands for input/output. The annual conference started as \"Google Developer Day\" a year prior."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_GlY0QCEOq6AV5VWKpBL3V4Sj",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI voice model September 10 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_GlY0QCEOq6AV5VWKpBL3V4Sj",
+      "content": "[OpenAI] OpenAI is an American artificial intelligence (AI) public benefit corporation (PBC) headquartered in San Francisco, California. It develops \"frontier\" generative AI models, particularly its generative pre-trained transformer (GPT) series of large language models. Its release of ChatGPT in November 2022 accelerated an AI boom, leading to widespread use of generative AI; as of September 2026, ChatGPT is the fifth-most-visited website globally. OpenAI also releases the GPT Image models and Codex, an AI coding agent. In March 2026, OpenAI closed a funding round with a post-money valuation of US$852 billion, making it one of the most valuable AI pure play companies in the world, rivalled only by Anthropic. OpenAI was founded in 2015 as a nonprofit, with Elon Musk and Sam Altman as co-chairs; Musk resigned in 2018. A for-profit subsidiary was created in 2019, and a 2025 restructuring converted the subsidiary into OpenAI Group PBC, that is 26% owned by the nonprofit OpenAI Foundation. Microsoft has invested over $13 billion into OpenAI. OpenAI partners with the US government via the Stargate Project infrastructure venture, and with the Department of Defense, Los Alamos National Laboratory, and arms company Anduril Industries. Former OpenAI personnel have founded competing AI companies including Anthropic, Safe Superintelligence Inc., SpaceXAI, and Thinking Machines Lab. OpenAI has faced multiple lawsuits for alleged deaths linked to its chatbots and copyright infringement against authors and media companies. Several US states have sued, alleging harm to children, claiming it coaches self-harm and encourages delusions. In November 2023, OpenAI's board removed Sam Altman as CEO, citing a lack of confidence, but reinstated him five days later after a board reconstruction. In 2024, roughly half of OpenAI's AI safety researchers left the company, often citing the company's deprioritization of safety. In mid-2026, hundreds of OpenAI agents gained unintended internet acc"
+    },
+    {
+      "role": "user",
+      "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>. Ответ после FINAL: должен быть на языке исходного вопроса."
+    },
+    {
+      "role": "assistant",
+      "content": "На данный момент нет информации о запуске полной дуплексной голосовой модели OpenAI в API 10 сентября 2026 года. Так как инструменты для поиска больше недоступны, нельзя предоставить точную информацию. \n\nFINAL: Нет информации.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

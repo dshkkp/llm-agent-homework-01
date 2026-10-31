@@ -1,0 +1,25 @@
+{
+  "config": "cheap_no_tools",
+  "task_id": "fresh-122",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "answer": "I don't have access to events beyond October 2023, so I cannot provide information on who ousted Sussan Ley in February 2026. Please check the latest news sources for up-to-date information. \n\nFINAL: Information unavailable.",
+  "steps": 1,
+  "cost": 5.039999999989497e-05,
+  "seconds": 1.840713300043717,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Who ousted Sussan Ley in February 2026 in Australian politics?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have access to events beyond October 2023, so I cannot provide information on who ousted Sussan Ley in February 2026. Please check the latest news sources for up-to-date information. \n\nFINAL: Information unavailable.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

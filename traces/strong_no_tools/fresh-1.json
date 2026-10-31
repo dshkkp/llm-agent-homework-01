@@ -1,0 +1,25 @@
+{
+  "config": "strong_no_tools",
+  "task_id": "fresh-1",
+  "question": "What date was Progress MS-33 launched to the ISS?",
+  "answer": "Progress MS-33 was launched to the International Space Station on April 30, 2025.\n\nFINAL: April 30, 2025",
+  "steps": 1,
+  "cost": 0.0011219999999998453,
+  "seconds": 2.1044038999825716,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "What date was Progress MS-33 launched to the ISS?"
+    },
+    {
+      "role": "assistant",
+      "content": "Progress MS-33 was launched to the International Space Station on April 30, 2025.\n\nFINAL: April 30, 2025",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

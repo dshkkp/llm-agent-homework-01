@@ -1,0 +1,47 @@
+{
+  "config": "cheap_web_page",
+  "task_id": "fresh-115",
+  "question": "How many people were killed in the Kenya floods on March 6–7, 2026?",
+  "answer": "FINAL: 66",
+  "steps": 2,
+  "cost": 0.00013139999999989271,
+  "seconds": 5.150628599978518,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "How many people were killed in the Kenya floods on March 6–7, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_vFISa5J6Gzuc81gPny7DCDka",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Kenya floods March 6–7, 2026 death toll\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_vFISa5J6Gzuc81gPny7DCDka",
+      "content": "[2026 Kenya floods] Between early March and late May 2026, flash flooding caused by heavy rainfall affected parts of Kenya, particularly the capital, Nairobi, killing at least 66 people. Floodwaters inundated roads across the city after intense overnight rainfall caused rivers to overflow, sweeping away vehicles and stranding motorists. The victims died mainly from drowning or electrocution. The flooding caused widespread disruption to transport and infrastructure in Nairobi, including the closure of major roads and power outages in several neighbourhoods. Flights at Jomo Kenyatta International Airport were also disrupted, with some aircraft diverted to the coastal city of Mombasa. Emergency responders, including the military and humanitarian agencies, were deployed to assist rescue operations and provide relief to affected residents."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: 66",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "config": "strong_no_tools",
+  "task_id": "fresh-25",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "I need to check information about this event, as it would be in early 2026, which is beyond my knowledge cutoff or at the edge of it.\n\nI don't have reliable information about specific events that occurred on February 26, 2026, as this date is beyond my knowledge cutoff of early 2025. I cannot accurately answer what the government of Pakistan declared on that date regarding the Afghanistan–Pakistan war.\n\nFINAL: I don't have information about events from February 26, 2026, as this is beyond my knowledge cutoff.",
+  "steps": 1,
+  "cost": 0.00243900000000008,
+  "seconds": 3.8668763999594375,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I need to check information about this event, as it would be in early 2026, which is beyond my knowledge cutoff or at the edge of it.\n\nI don't have reliable information about specific events that occurred on February 26, 2026, as this date is beyond my knowledge cutoff of early 2025. I cannot accurately answer what the government of Pakistan declared on that date regarding the Afghanistan–Pakistan war.\n\nFINAL: I don't have information about events from February 26, 2026, as this is beyond my knowledge cutoff.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

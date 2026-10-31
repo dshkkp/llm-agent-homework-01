@@ -1,0 +1,47 @@
+{
+  "config": "cheap_web_page",
+  "task_id": "manual-002",
+  "question": "Which open-source programming language was at the center of OpenAI's Patch the Planet vulnerability response in October 2026?",
+  "answer": "FINAL: PHP",
+  "steps": 2,
+  "cost": 0.0001372500000000887,
+  "seconds": 5.0994522999972105,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Which open-source programming language was at the center of OpenAI's Patch the Planet vulnerability response in October 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_8w7DFyMZOIoyKlo8ASB8gDBG",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI Patch the Planet vulnerability response October 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_8w7DFyMZOIoyKlo8ASB8gDBG",
+      "content": "[PHP2Shell] PHP2Shell is a pair of high-impact computer vulnerabilities (CVE-2026-109618 and CVE-2026-109619) concerning memory safety flaws in PHP versions 5.4–8.5 that allow remote code execution (RCE) by a potential malicious user to gain remote control of the website host. PHP is a popular programming language on which many website and web application codebases are built; these vulnerabilities were estimated to affect nearly 70% of websites at the time of their disclosure. The vulnerabilities were discovered with the help of AI in August 2026 and their existence was publicly announced on 20 October 2026. An emergency patch for versions 8.2, 8.3, 8.4 and 8.5 and details about the vulnerabilities were released the following day, with numerous websites temporarily taken offline to apply the patches before exploits (software that uses a security hole to compromise a computer) could be used."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: PHP",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

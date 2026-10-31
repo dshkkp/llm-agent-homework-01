@@ -1,0 +1,25 @@
+{
+  "config": "cheap_no_tools",
+  "task_id": "manual-011",
+  "question": "Which restricted-access Anthropic model was introduced alongside Claude Fable 5.1 in September 2026?",
+  "answer": "The restricted-access Anthropic model introduced alongside Claude Fable 5.1 in September 2026 is Claude 3. \n\nFINAL: Claude 3",
+  "steps": 1,
+  "cost": 4.050000000010989e-05,
+  "seconds": 2.3339210000121966,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Which restricted-access Anthropic model was introduced alongside Claude Fable 5.1 in September 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "The restricted-access Anthropic model introduced alongside Claude Fable 5.1 in September 2026 is Claude 3. \n\nFINAL: Claude 3",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

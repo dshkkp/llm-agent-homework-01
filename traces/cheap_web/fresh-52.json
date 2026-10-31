@@ -1,0 +1,47 @@
+{
+  "config": "cheap_web",
+  "task_id": "fresh-52",
+  "question": "What was the magnitude of the earthquake that hit Guangxi on May 18, 2026?",
+  "answer": "The earthquake that hit Guangxi on May 18, 2026, had magnitudes of 5.0 and 5.1 (5.2 according to the China Earthquake Administration). \n\nFINAL: 5.0 and 5.1 (5.2)",
+  "steps": 2,
+  "cost": 0.00013095000000018509,
+  "seconds": 5.854896700009704,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "What was the magnitude of the earthquake that hit Guangxi on May 18, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_M61eOPOk2QKvjQJF6VCSTw6R",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Guangxi earthquake May 18, 2026 magnitude\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_M61eOPOk2QKvjQJF6VCSTw6R",
+      "content": "[2026 Liuzhou earthquakes] On 18 May 2026, two doublet earthquakes measuring Mww 5.0 and 5.1 (both measuring 5.2 according to the China Earthquake Administration) struck Liuzhou, Guangxi, China. Two people were killed, six others were injured and nearly 1,000 structures were badly damaged or destroyed by both events."
+    },
+    {
+      "role": "assistant",
+      "content": "The earthquake that hit Guangxi on May 18, 2026, had magnitudes of 5.0 and 5.1 (5.2 according to the China Earthquake Administration). \n\nFINAL: 5.0 and 5.1 (5.2)",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

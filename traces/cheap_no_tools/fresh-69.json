@@ -1,0 +1,25 @@
+{
+  "config": "cheap_no_tools",
+  "task_id": "fresh-69",
+  "question": "In which city will the 2026 UEFA Conference League final take place?",
+  "answer": "The 2026 UEFA Conference League final will take place in London. FINAL: London",
+  "steps": 1,
+  "cost": 3.105000000003244e-05,
+  "seconds": 1.6878929000231437,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "In which city will the 2026 UEFA Conference League final take place?"
+    },
+    {
+      "role": "assistant",
+      "content": "The 2026 UEFA Conference League final will take place in London. FINAL: London",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

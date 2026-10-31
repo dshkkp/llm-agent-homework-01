@@ -1,0 +1,25 @@
+{
+  "config": "cheap_no_tools",
+  "task_id": "fresh-136",
+  "question": "Which xAI feature was restricted to paid users on January 9, 2026, following concerns about deepfake imagery?",
+  "answer": "I'm unable to provide current information or future events, including the specific xAI feature mentioned for January 9, 2026. Please check the latest news or official announcements for accurate information. \n\nFINAL: Information not available.",
+  "steps": 1,
+  "cost": 4.935000000005907e-05,
+  "seconds": 2.4758222000091337,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Which xAI feature was restricted to paid users on January 9, 2026, following concerns about deepfake imagery?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm unable to provide current information or future events, including the specific xAI feature mentioned for January 9, 2026. Please check the latest news or official announcements for accurate information. \n\nFINAL: Information not available.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

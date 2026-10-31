@@ -1,0 +1,25 @@
+{
+  "config": "cheap_no_tools",
+  "task_id": "fresh-10",
+  "question": "How many people were killed in the February 18 explosion at a fireworks store in China?",
+  "answer": "The explosion at a fireworks store in China on February 18, 2023, killed at least 11 people. \n\nFINAL: 11",
+  "steps": 1,
+  "cost": 3.8700000000169155e-05,
+  "seconds": 2.453450499975588,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "How many people were killed in the February 18 explosion at a fireworks store in China?"
+    },
+    {
+      "role": "assistant",
+      "content": "The explosion at a fireworks store in China on February 18, 2023, killed at least 11 people. \n\nFINAL: 11",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

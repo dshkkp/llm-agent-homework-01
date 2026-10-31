@@ -1,0 +1,47 @@
+{
+  "config": "cheap_web_page",
+  "task_id": "fresh-94",
+  "question": "What position did France's Monroe finish at Eurovision 2026 in Austria?",
+  "answer": "FINAL: eleventh place",
+  "steps": 2,
+  "cost": 0.00011909999999981657,
+  "seconds": 5.302586600009818,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "What position did France's Monroe finish at Eurovision 2026 in Austria?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_j0JT8vuz2FLHVLmmQTNms6Pk",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"France Monroe Eurovision 2026 results\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_j0JT8vuz2FLHVLmmQTNms6Pk",
+      "content": "[Monroe (singer)] Monroe Vata Rigby (born 19 November 2008), known mononymously as Monroe, is an American soprano singer. She represented France in the Eurovision Song Contest 2026 with the song \"Regarde!\", finishing in eleventh place. She was the last minor to perform on the Eurovision stage before the EBU announced that the minimum participation age would be raised to 18 starting in 2027. She also has performed with Josh Groban, on \"Hymne à l'amour\"."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: eleventh place",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

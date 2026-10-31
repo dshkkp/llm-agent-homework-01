@@ -1,0 +1,25 @@
+{
+  "config": "cheap_no_tools",
+  "task_id": "manual-008",
+  "question": "Which small Anthropic model was released on October 7, 2026 for high-volume, cost-sensitive tasks?",
+  "answer": "FINAL: Claude 1.0",
+  "steps": 1,
+  "cost": 2.6249999999894413e-05,
+  "seconds": 3.532237300009001,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "Which small Anthropic model was released on October 7, 2026 for high-volume, cost-sensitive tasks?"
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Claude 1.0",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "config": "cheap_no_tools",
+  "task_id": "fresh-24",
+  "question": "In the United Kingdom, what is declared across the whole of Wales in July 2026?",
+  "answer": "It is declared that the whole of Wales will be declared a \"National Park\" in July 2026. \n\nFINAL: National Park",
+  "steps": 1,
+  "cost": 3.764999999988916e-05,
+  "seconds": 2.3562105000019073,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "In the United Kingdom, what is declared across the whole of Wales in July 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "It is declared that the whole of Wales will be declared a \"National Park\" in July 2026. \n\nFINAL: National Park",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

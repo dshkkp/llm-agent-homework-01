@@ -1,0 +1,25 @@
+{
+  "config": "cheap_no_tools",
+  "task_id": "fresh-12",
+  "question": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?",
+  "answer": "I cannot predict future statistics or data such as the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026. \n\nFINAL: Data not available.",
+  "steps": 1,
+  "cost": 4.500000000007276e-05,
+  "seconds": 1.8340434999554418,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза. Всегда отвечай на том же языке, на котором задан вопрос. Если вопрос на английском, ответ после FINAL: должен быть строго на английском языке. Сохраняй оригинальное написание имён, организаций и названий."
+    },
+    {
+      "role": "user",
+      "content": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I cannot predict future statistics or data such as the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026. \n\nFINAL: Data not available.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}
